@@ -1,0 +1,2041 @@
+2023-02-17 11:09:17.213 restartedMain [] DEBUG jdbc.sqlonly -  com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
+1. create table Authority (authorityId bigint not null, createDateTime datetime(6), createUserKey varchar(13), updateDateTime datetime(6), updateUserKey varchar(13), businessKey varchar(255), name varchar(255), member bigint, primary key (authorityId)) engine=InnoDB
+
+ 
+    com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94) 1. create table Authority (authorityId bigint not null, createDateTime datetime(6), createUserKey varchar(13), updateDateTime datetime(6), updateUserKey varchar(13), businessKey varchar(255), name varchar(255), member bigint, primary key (authorityId)) engine=InnoDB 
+2023-02-17 11:09:17.291 restartedMain [] DEBUG jdbc.sqlonly -  com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
+1. alter table Authority add constraint FK54ifxtd5w5u72j7v808qjt42w foreign key (member) references Member (memberId)
+
+ 
+    com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94) 1. alter table Authority add constraint FK54ifxtd5w5u72j7v808qjt42w foreign key (member) references Member (memberId) 
+2023-02-17 11:10:28.232 restartedMain [] DEBUG jdbc.sqlonly -  com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
+1. create table Authority (authorityId bigint not null, createDateTime datetime(6), createUserKey varchar(13), updateDateTime datetime(6), updateUserKey varchar(13), businessKey varchar(255), name varchar(255), member bigint, primary key (authorityId)) engine=InnoDB
+
+ 
+    com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94) 1. create table Authority (authorityId bigint not null, createDateTime datetime(6), createUserKey varchar(13), updateDateTime datetime(6), updateUserKey varchar(13), businessKey varchar(255), name varchar(255), member bigint, primary key (authorityId)) engine=InnoDB 
+2023-02-17 11:10:28.327 restartedMain [] DEBUG jdbc.sqlonly -  com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
+1. create table Member (memberId bigint not null, createDateTime datetime(6), createUserKey varchar(13), updateDateTime datetime(6), updateUserKey varchar(13), businessKey varchar(255), name varchar(255), password varchar(255), username varchar(255), primary key (memberId)) engine=InnoDB
+
+ 
+    com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94) 1. create table Member (memberId bigint not null, createDateTime datetime(6), createUserKey varchar(13), updateDateTime datetime(6), updateUserKey varchar(13), businessKey varchar(255), name varchar(255), password varchar(255), username varchar(255), primary key (memberId)) engine=InnoDB 
+2023-02-17 11:10:28.406 restartedMain [] DEBUG jdbc.sqlonly -  com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
+1. alter table Authority add constraint FK54ifxtd5w5u72j7v808qjt42w foreign key (member) references Member (memberId)
+
+ 
+    com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94) 1. alter table Authority add constraint FK54ifxtd5w5u72j7v808qjt42w foreign key (member) references Member (memberId) 
+2023-02-17 11:16:39.045 restartedMain [] DEBUG jdbc.sqlonly -  com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+11. select * from `t1`.`member` where 1=0
+
+ 
+    com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52) 11. select
+        * 
+    from
+        `t1`.`member` 
+    where
+        1=0 
+2023-02-17 11:16:39.093 restartedMain [] INFO  jdbc.resultsettable - 
+|---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------|
+|memberid |createdatetime |createuserkey |updatedatetime |updateuserkey |businesskey |name |password |username |
+|---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------|
+|---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------|
+
+ 
+    |---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------| |memberid |createdatetime |createuserkey |updatedatetime |updateuserkey |businesskey |name |password |username | |---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------| |---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------| 
+2023-02-17 11:17:39.627 restartedMain [] DEBUG jdbc.sqlonly -  com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+21. select * from `t1`.`member` where 1=0
+
+ 
+    com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52) 21. select
+        * 
+    from
+        `t1`.`member` 
+    where
+        1=0 
+2023-02-17 11:17:39.671 restartedMain [] INFO  jdbc.resultsettable - 
+|---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------|
+|memberid |createdatetime |createuserkey |updatedatetime |updateuserkey |businesskey |name |password |username |
+|---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------|
+|---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------|
+
+ 
+    |---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------| |memberid |createdatetime |createuserkey |updatedatetime |updateuserkey |businesskey |name |password |username | |---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------| |---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------| 
+2023-02-17 11:18:22.554 restartedMain [] DEBUG jdbc.sqlonly -  com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+31. select * from `t1`.`member` where 1=0
+
+ 
+    com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52) 31. select
+        * 
+    from
+        `t1`.`member` 
+    where
+        1=0 
+2023-02-17 11:18:22.596 restartedMain [] INFO  jdbc.resultsettable - 
+|---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------|
+|memberid |createdatetime |createuserkey |updatedatetime |updateuserkey |businesskey |name |password |username |
+|---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------|
+|---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------|
+
+ 
+    |---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------| |memberid |createdatetime |createuserkey |updatedatetime |updateuserkey |businesskey |name |password |username | |---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------| |---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------| 
+2023-02-17 11:18:47.430 restartedMain [] DEBUG jdbc.sqlonly -  com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+38. select * from `t1`.`member` where 1=0
+
+ 
+    com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52) 38. select
+        * 
+    from
+        `t1`.`member` 
+    where
+        1=0 
+2023-02-17 11:18:47.484 restartedMain [] INFO  jdbc.resultsettable - 
+|---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------|
+|memberid |createdatetime |createuserkey |updatedatetime |updateuserkey |businesskey |name |password |username |
+|---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------|
+|---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------|
+
+ 
+    |---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------| |memberid |createdatetime |createuserkey |updatedatetime |updateuserkey |businesskey |name |password |username | |---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------| |---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------| 
+2023-02-17 11:19:01.681 restartedMain [] DEBUG jdbc.sqlonly -  com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+44. select * from `t1`.`member` where 1=0
+
+ 
+    com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52) 44. select
+        * 
+    from
+        `t1`.`member` 
+    where
+        1=0 
+2023-02-17 11:19:01.739 restartedMain [] INFO  jdbc.resultsettable - 
+|---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------|
+|memberid |createdatetime |createuserkey |updatedatetime |updateuserkey |businesskey |name |password |username |
+|---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------|
+|---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------|
+
+ 
+    |---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------| |memberid |createdatetime |createuserkey |updatedatetime |updateuserkey |businesskey |name |password |username | |---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------| |---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------| 
+2023-02-17 13:41:18.052 restartedMain [] DEBUG jdbc.sqlonly -  com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+1. select * from `t1`.`member` where 1=0
+
+ 
+    com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52) 1. select
+        * 
+    from
+        `t1`.`member` 
+    where
+        1=0 
+2023-02-17 13:41:18.125 restartedMain [] INFO  jdbc.resultsettable - 
+|---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------|
+|memberid |createdatetime |createuserkey |updatedatetime |updateuserkey |businesskey |name |password |username |
+|---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------|
+|---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------|
+
+ 
+    |---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------| |memberid |createdatetime |createuserkey |updatedatetime |updateuserkey |businesskey |name |password |username | |---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------| |---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------| 
+2023-02-17 13:46:12.739 restartedMain [] DEBUG jdbc.sqlonly -  com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+11. select * from `t1`.`member` where 1=0
+
+ 
+    com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52) 11. select
+        * 
+    from
+        `t1`.`member` 
+    where
+        1=0 
+2023-02-17 13:46:12.764 restartedMain [] INFO  jdbc.resultsettable - 
+|---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------|
+|memberid |createdatetime |createuserkey |updatedatetime |updateuserkey |businesskey |name |password |username |
+|---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------|
+|---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------|
+
+ 
+    |---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------| |memberid |createdatetime |createuserkey |updatedatetime |updateuserkey |businesskey |name |password |username | |---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------| |---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------| 
+2023-02-17 13:46:26.862 http-nio-35063-exec-2 [] DEBUG jdbc.sqlonly -  com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+11. select businesske0_.businessKeyStoreId as col_0_0_ from BusinessKeyStore businesske0_ where businesske0_.businessKey='MEM0060141811' limit 1
+
+ 
+    com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52) 11. select
+        businesske0_.businessKeyStoreId as col_0_0_ 
+    from
+        BusinessKeyStore businesske0_ 
+    where
+        businesske0_.businessKey='MEM0060141811' limit 1 
+2023-02-17 13:46:26.924 http-nio-35063-exec-2 [] INFO  jdbc.resultsettable - 
+|-------------------|
+|businesskeystoreid |
+|-------------------|
+|-------------------|
+
+ 
+    |-------------------| |businesskeystoreid | |-------------------| |-------------------| 
+2023-02-17 13:46:26.988 http-nio-35063-exec-2 [] DEBUG jdbc.sqlonly -  com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+12. select next_val as id_val from hibernate_sequence for update
+
+ 
+    com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52) 12. select
+        next_val as id_val 
+    from
+        hibernate_sequence for update
+            
+2023-02-17 13:46:27.012 http-nio-35063-exec-2 [] INFO  jdbc.resultsettable - 
+|---------|
+|next_val |
+|---------|
+|88       |
+|---------|
+
+ 
+    |---------| |next_val | |---------| |88       | |---------| 
+2023-02-17 13:46:27.013 http-nio-35063-exec-2 [] DEBUG jdbc.sqlonly -  com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61)
+12. update hibernate_sequence set next_val= 89 where next_val=88
+
+ 
+    com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61) 12. update
+        hibernate_sequence 
+    set
+        next_val= 89 
+    where
+        next_val=88 
+2023-02-17 13:46:27.203 http-nio-35063-exec-2 [] DEBUG jdbc.sqlonly -  com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61)
+11. insert into BusinessKeyStore (businessKey, createDateTime, businessKeyStoreId) values ('MEM0060141811', '02/17/2023 13:46:27.193', 88)
+
+ 
+    com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61) 11. insert 
+    into
+        BusinessKeyStore
+        (businessKey, createDateTime, businessKeyStoreId) 
+    values
+        ('MEM0060141811', '02/17/2023 13:46:27.193', 88) 
+2023-02-17 13:46:27.232 http-nio-35063-exec-2 [] DEBUG jdbc.sqlonly -  com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+11. select businesske0_.businessKeyStoreId as col_0_0_ from BusinessKeyStore businesske0_ where businesske0_.businessKey='AUT0285747923' limit 1
+
+ 
+    com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52) 11. select
+        businesske0_.businessKeyStoreId as col_0_0_ 
+    from
+        BusinessKeyStore businesske0_ 
+    where
+        businesske0_.businessKey='AUT0285747923' limit 1 
+2023-02-17 13:46:27.255 http-nio-35063-exec-2 [] INFO  jdbc.resultsettable - 
+|-------------------|
+|businesskeystoreid |
+|-------------------|
+|-------------------|
+
+ 
+    |-------------------| |businesskeystoreid | |-------------------| |-------------------| 
+2023-02-17 13:46:27.276 http-nio-35063-exec-2 [] DEBUG jdbc.sqlonly -  com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+12. select next_val as id_val from hibernate_sequence for update
+
+ 
+    com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52) 12. select
+        next_val as id_val 
+    from
+        hibernate_sequence for update
+            
+2023-02-17 13:46:27.307 http-nio-35063-exec-2 [] INFO  jdbc.resultsettable - 
+|---------|
+|next_val |
+|---------|
+|89       |
+|---------|
+
+ 
+    |---------| |next_val | |---------| |89       | |---------| 
+2023-02-17 13:46:27.308 http-nio-35063-exec-2 [] DEBUG jdbc.sqlonly -  com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61)
+12. update hibernate_sequence set next_val= 90 where next_val=89
+
+ 
+    com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61) 12. update
+        hibernate_sequence 
+    set
+        next_val= 90 
+    where
+        next_val=89 
+2023-02-17 13:46:27.509 http-nio-35063-exec-2 [] DEBUG jdbc.sqlonly -  com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+12. select next_val as id_val from hibernate_sequence for update
+
+ 
+    com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52) 12. select
+        next_val as id_val 
+    from
+        hibernate_sequence for update
+            
+2023-02-17 13:46:27.537 http-nio-35063-exec-2 [] INFO  jdbc.resultsettable - 
+|---------|
+|next_val |
+|---------|
+|90       |
+|---------|
+
+ 
+    |---------| |next_val | |---------| |90       | |---------| 
+2023-02-17 13:46:27.539 http-nio-35063-exec-2 [] DEBUG jdbc.sqlonly -  com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61)
+12. update hibernate_sequence set next_val= 91 where next_val=90
+
+ 
+    com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61) 12. update
+        hibernate_sequence 
+    set
+        next_val= 91 
+    where
+        next_val=90 
+2023-02-17 13:46:27.637 http-nio-35063-exec-2 [] DEBUG jdbc.sqlonly -  com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+12. select next_val as id_val from hibernate_sequence for update
+
+ 
+    com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52) 12. select
+        next_val as id_val 
+    from
+        hibernate_sequence for update
+            
+2023-02-17 13:46:27.664 http-nio-35063-exec-2 [] INFO  jdbc.resultsettable - 
+|---------|
+|next_val |
+|---------|
+|91       |
+|---------|
+
+ 
+    |---------| |next_val | |---------| |91       | |---------| 
+2023-02-17 13:46:27.666 http-nio-35063-exec-2 [] DEBUG jdbc.sqlonly -  com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61)
+12. update hibernate_sequence set next_val= 92 where next_val=91
+
+ 
+    com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61) 12. update
+        hibernate_sequence 
+    set
+        next_val= 92 
+    where
+        next_val=91 
+2023-02-17 13:46:27.732 http-nio-35063-exec-2 [] DEBUG jdbc.sqlonly -  com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61)
+11. insert into BusinessKeyStore (businessKey, createDateTime, businessKeyStoreId) values ('AUT0285747923', '02/17/2023 13:46:27.730', 89)
+
+ 
+    com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61) 11. insert 
+    into
+        BusinessKeyStore
+        (businessKey, createDateTime, businessKeyStoreId) 
+    values
+        ('AUT0285747923', '02/17/2023 13:46:27.730', 89) 
+2023-02-17 13:46:27.787 http-nio-35063-exec-2 [] DEBUG jdbc.sqlonly -  com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61)
+11. insert into Member (createDateTime, createUserKey, updateDateTime, updateUserKey, businessKey, name, password, username, memberId) values ('02/17/2023 13:46:27.786', NULL, '02/17/2023 13:46:27.786', NULL, 'MEM0060141811', '이재원', '{bcrypt}$2a$10$jXJc9vRzyigcSiw4GgMzR.IiRLIjL/DRTGLAGPucd0/kG8l4pxfA6', 'llwodnjs@naver.com', 90)
+
+ 
+    com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61) 11. insert 
+    into
+        Member
+        (createDateTime, createUserKey, updateDateTime, updateUserKey, businessKey, name, password, username, memberId) 
+    values
+        ('02/17/2023 13:46:27.786', NULL, '02/17/2023 13:46:27.786', NULL, 'MEM0060141811', '이재원', '{bcrypt}$2a$10$jXJc9vRzyigcSiw4GgMzR.IiRLIjL/DRTGLAGPucd0/kG8l4pxfA6', 'llwodnjs@naver.com', 90) 
+2023-02-17 13:46:27.809 http-nio-35063-exec-2 [] DEBUG jdbc.sqlonly -  com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61)
+11. insert into Authority (createDateTime, createUserKey, updateDateTime, updateUserKey, businessKey, member, name, authorityId) values ('02/17/2023 13:46:27.808', NULL, '02/17/2023 13:46:27.808', NULL, 'AUT0285747923', 90, 'USER', 91)
+
+ 
+    com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61) 11. insert 
+    into
+        Authority
+        (createDateTime, createUserKey, updateDateTime, updateUserKey, businessKey, member, name, authorityId) 
+    values
+        ('02/17/2023 13:46:27.808', NULL, '02/17/2023 13:46:27.808', NULL, 'AUT0285747923', 90, 'USER', 91) 
+2023-02-17 14:01:33.914 restartedMain [] DEBUG jdbc.sqlonly -  com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+21. select * from `t1`.`member` where 1=0
+
+ 
+    com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52) 21. select
+        * 
+    from
+        `t1`.`member` 
+    where
+        1=0 
+2023-02-17 14:01:33.936 restartedMain [] INFO  jdbc.resultsettable - 
+|---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------|
+|memberid |createdatetime |createuserkey |updatedatetime |updateuserkey |businesskey |name |password |username |
+|---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------|
+|---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------|
+
+ 
+    |---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------| |memberid |createdatetime |createuserkey |updatedatetime |updateuserkey |businesskey |name |password |username | |---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------| |---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------| 
+2023-02-17 14:02:47.923 http-nio-35063-exec-3 [] DEBUG jdbc.sqlonly -  com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+21. select member0_.memberId as memberid1_2_, member0_.createDateTime as createda2_2_, member0_.createUserKey as createus3_2_, member0_.updateDateTime as updateda4_2_, member0_.updateUserKey as updateus5_2_, member0_.businessKey as business6_2_, member0_.name as name7_2_, member0_.password as password8_2_, member0_.username as username9_2_ from Member member0_ where member0_.username='llwodnjs@naver.com'
+
+ 
+    com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52) 21. select
+        member0_.memberId as memberid1_2_,
+        member0_.createDateTime as createda2_2_,
+        member0_.createUserKey as createus3_2_,
+        member0_.updateDateTime as updateda4_2_,
+        member0_.updateUserKey as updateus5_2_,
+        member0_.businessKey as business6_2_,
+        member0_.name as name7_2_,
+        member0_.password as password8_2_,
+        member0_.username as username9_2_ 
+    from
+        Member member0_ 
+    where
+        member0_.username='llwodnjs@naver.com' 
+2023-02-17 14:02:48.136 http-nio-35063-exec-3 [] INFO  jdbc.resultsettable - 
+|---------|------------------------|--------------|------------------------|--------------|--------------|-----|---------------------------------------------------------------------|-------------------|
+|memberid |createdatetime          |createuserkey |updatedatetime          |updateuserkey |businesskey   |name |password                                                             |username           |
+|---------|------------------------|--------------|------------------------|--------------|--------------|-----|---------------------------------------------------------------------|-------------------|
+|90       |2023-02-17 13:46:27.786 |null          |2023-02-17 13:46:27.786 |null          |MEM0060141811 |이재원  |{bcrypt}$2a$10$jXJc9vRzyigcSiw4GgMzR.IiRLIjL/DRTGLAGPucd0/kG8l4pxfA6 |llwodnjs@naver.com |
+|---------|------------------------|--------------|------------------------|--------------|--------------|-----|---------------------------------------------------------------------|-------------------|
+
+ 
+    |---------|------------------------|--------------|------------------------|--------------|--------------|-----|---------------------------------------------------------------------|-------------------| |memberid |createdatetime          |createuserkey |updatedatetime          |updateuserkey |businesskey   |name |password                                                             |username           | |---------|------------------------|--------------|------------------------|--------------|--------------|-----|---------------------------------------------------------------------|-------------------| |90       |2023-02-17 13:46:27.786 |null          |2023-02-17 13:46:27.786 |null          |MEM0060141811 |이재원  |{bcrypt}$2a$10$jXJc9vRzyigcSiw4GgMzR.IiRLIjL/DRTGLAGPucd0/kG8l4pxfA6 |llwodnjs@naver.com | |---------|------------------------|--------------|------------------------|--------------|--------------|-----|---------------------------------------------------------------------|-------------------| 
+2023-02-17 14:03:00.477 http-nio-35063-exec-3 [] DEBUG jdbc.sqlonly -  com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+21. select roles0_.member as member8_0_0_, roles0_.authorityId as authorit1_0_0_, roles0_.authorityId as authorit1_0_1_, roles0_.createDateTime as createda2_0_1_, roles0_.createUserKey as createus3_0_1_, roles0_.updateDateTime as updateda4_0_1_, roles0_.updateUserKey as updateus5_0_1_, roles0_.businessKey as business6_0_1_, roles0_.member as member8_0_1_, roles0_.name as name7_0_1_ from Authority roles0_ where roles0_.member=90
+
+ 
+    com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52) 21. select
+        roles0_.member as member8_0_0_,
+        roles0_.authorityId as authorit1_0_0_,
+        roles0_.authorityId as authorit1_0_1_,
+        roles0_.createDateTime as createda2_0_1_,
+        roles0_.createUserKey as createus3_0_1_,
+        roles0_.updateDateTime as updateda4_0_1_,
+        roles0_.updateUserKey as updateus5_0_1_,
+        roles0_.businessKey as business6_0_1_,
+        roles0_.member as member8_0_1_,
+        roles0_.name as name7_0_1_ 
+    from
+        Authority roles0_ 
+    where
+        roles0_.member=90 
+2023-02-17 14:03:00.814 http-nio-35063-exec-3 [] INFO  jdbc.resultsettable - 
+|-------|------------|------------|------------------------|--------------|------------------------|--------------|--------------|-------|-----|
+|member |authorityid |authorityid |createdatetime          |createuserkey |updatedatetime          |updateuserkey |businesskey   |member |name |
+|-------|------------|------------|------------------------|--------------|------------------------|--------------|--------------|-------|-----|
+|90     |91          |91          |2023-02-17 13:46:27.808 |null          |2023-02-17 13:46:27.808 |null          |AUT0285747923 |90     |USER |
+|-------|------------|------------|------------------------|--------------|------------------------|--------------|--------------|-------|-----|
+
+ 
+    |-------|------------|------------|------------------------|--------------|------------------------|--------------|--------------|-------|-----| |member |authorityid |authorityid |createdatetime          |createuserkey |updatedatetime          |updateuserkey |businesskey   |member |name | |-------|------------|------------|------------------------|--------------|------------------------|--------------|--------------|-------|-----| |90     |91          |91          |2023-02-17 13:46:27.808 |null          |2023-02-17 13:46:27.808 |null          |AUT0285747923 |90     |USER | |-------|------------|------------|------------------------|--------------|------------------------|--------------|--------------|-------|-----| 
+2023-02-17 14:03:47.151 http-nio-35063-exec-1 [] DEBUG jdbc.sqlonly -  com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+21. select member0_.memberId as memberid1_2_, member0_.createDateTime as createda2_2_, member0_.createUserKey as createus3_2_, member0_.updateDateTime as updateda4_2_, member0_.updateUserKey as updateus5_2_, member0_.businessKey as business6_2_, member0_.name as name7_2_, member0_.password as password8_2_, member0_.username as username9_2_ from Member member0_ where member0_.username='llwodnjs@naver.com'
+
+ 
+    com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52) 21. select
+        member0_.memberId as memberid1_2_,
+        member0_.createDateTime as createda2_2_,
+        member0_.createUserKey as createus3_2_,
+        member0_.updateDateTime as updateda4_2_,
+        member0_.updateUserKey as updateus5_2_,
+        member0_.businessKey as business6_2_,
+        member0_.name as name7_2_,
+        member0_.password as password8_2_,
+        member0_.username as username9_2_ 
+    from
+        Member member0_ 
+    where
+        member0_.username='llwodnjs@naver.com' 
+2023-02-17 14:03:47.193 http-nio-35063-exec-1 [] INFO  jdbc.resultsettable - 
+|---------|------------------------|--------------|------------------------|--------------|--------------|-----|---------------------------------------------------------------------|-------------------|
+|memberid |createdatetime          |createuserkey |updatedatetime          |updateuserkey |businesskey   |name |password                                                             |username           |
+|---------|------------------------|--------------|------------------------|--------------|--------------|-----|---------------------------------------------------------------------|-------------------|
+|90       |2023-02-17 13:46:27.786 |null          |2023-02-17 13:46:27.786 |null          |MEM0060141811 |이재원  |{bcrypt}$2a$10$jXJc9vRzyigcSiw4GgMzR.IiRLIjL/DRTGLAGPucd0/kG8l4pxfA6 |llwodnjs@naver.com |
+|---------|------------------------|--------------|------------------------|--------------|--------------|-----|---------------------------------------------------------------------|-------------------|
+
+ 
+    |---------|------------------------|--------------|------------------------|--------------|--------------|-----|---------------------------------------------------------------------|-------------------| |memberid |createdatetime          |createuserkey |updatedatetime          |updateuserkey |businesskey   |name |password                                                             |username           | |---------|------------------------|--------------|------------------------|--------------|--------------|-----|---------------------------------------------------------------------|-------------------| |90       |2023-02-17 13:46:27.786 |null          |2023-02-17 13:46:27.786 |null          |MEM0060141811 |이재원  |{bcrypt}$2a$10$jXJc9vRzyigcSiw4GgMzR.IiRLIjL/DRTGLAGPucd0/kG8l4pxfA6 |llwodnjs@naver.com | |---------|------------------------|--------------|------------------------|--------------|--------------|-----|---------------------------------------------------------------------|-------------------| 
+2023-02-17 14:03:47.743 http-nio-35063-exec-1 [] DEBUG jdbc.sqlonly -  com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+21. select roles0_.member as member8_0_0_, roles0_.authorityId as authorit1_0_0_, roles0_.authorityId as authorit1_0_1_, roles0_.createDateTime as createda2_0_1_, roles0_.createUserKey as createus3_0_1_, roles0_.updateDateTime as updateda4_0_1_, roles0_.updateUserKey as updateus5_0_1_, roles0_.businessKey as business6_0_1_, roles0_.member as member8_0_1_, roles0_.name as name7_0_1_ from Authority roles0_ where roles0_.member=90
+
+ 
+    com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52) 21. select
+        roles0_.member as member8_0_0_,
+        roles0_.authorityId as authorit1_0_0_,
+        roles0_.authorityId as authorit1_0_1_,
+        roles0_.createDateTime as createda2_0_1_,
+        roles0_.createUserKey as createus3_0_1_,
+        roles0_.updateDateTime as updateda4_0_1_,
+        roles0_.updateUserKey as updateus5_0_1_,
+        roles0_.businessKey as business6_0_1_,
+        roles0_.member as member8_0_1_,
+        roles0_.name as name7_0_1_ 
+    from
+        Authority roles0_ 
+    where
+        roles0_.member=90 
+2023-02-17 14:03:47.773 http-nio-35063-exec-1 [] INFO  jdbc.resultsettable - 
+|-------|------------|------------|------------------------|--------------|------------------------|--------------|--------------|-------|-----|
+|member |authorityid |authorityid |createdatetime          |createuserkey |updatedatetime          |updateuserkey |businesskey   |member |name |
+|-------|------------|------------|------------------------|--------------|------------------------|--------------|--------------|-------|-----|
+|90     |91          |91          |2023-02-17 13:46:27.808 |null          |2023-02-17 13:46:27.808 |null          |AUT0285747923 |90     |USER |
+|-------|------------|------------|------------------------|--------------|------------------------|--------------|--------------|-------|-----|
+
+ 
+    |-------|------------|------------|------------------------|--------------|------------------------|--------------|--------------|-------|-----| |member |authorityid |authorityid |createdatetime          |createuserkey |updatedatetime          |updateuserkey |businesskey   |member |name | |-------|------------|------------|------------------------|--------------|------------------------|--------------|--------------|-------|-----| |90     |91          |91          |2023-02-17 13:46:27.808 |null          |2023-02-17 13:46:27.808 |null          |AUT0285747923 |90     |USER | |-------|------------|------------|------------------------|--------------|------------------------|--------------|--------------|-------|-----| 
+2023-02-17 14:14:06.318 restartedMain [] DEBUG jdbc.sqlonly -  com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+31. select * from `t1`.`member` where 1=0
+
+ 
+    com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52) 31. select
+        * 
+    from
+        `t1`.`member` 
+    where
+        1=0 
+2023-02-17 14:14:06.360 restartedMain [] INFO  jdbc.resultsettable - 
+|---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------|
+|memberid |createdatetime |createuserkey |updatedatetime |updateuserkey |businesskey |name |password |username |
+|---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------|
+|---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------|
+
+ 
+    |---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------| |memberid |createdatetime |createuserkey |updatedatetime |updateuserkey |businesskey |name |password |username | |---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------| |---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------| 
+2023-02-17 14:15:47.847 restartedMain [] DEBUG jdbc.sqlonly -  com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+41. select * from `t1`.`member` where 1=0
+
+ 
+    com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52) 41. select
+        * 
+    from
+        `t1`.`member` 
+    where
+        1=0 
+2023-02-17 14:15:47.870 restartedMain [] INFO  jdbc.resultsettable - 
+|---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------|
+|memberid |createdatetime |createuserkey |updatedatetime |updateuserkey |businesskey |name |password |username |
+|---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------|
+|---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------|
+
+ 
+    |---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------| |memberid |createdatetime |createuserkey |updatedatetime |updateuserkey |businesskey |name |password |username | |---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------| |---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------| 
+2023-02-17 14:16:04.574 restartedMain [] DEBUG jdbc.sqlonly -  com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+1. select * from `t1`.`member` where 1=0
+
+ 
+    com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52) 1. select
+        * 
+    from
+        `t1`.`member` 
+    where
+        1=0 
+2023-02-17 14:16:04.616 restartedMain [] INFO  jdbc.resultsettable - 
+|---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------|
+|memberid |createdatetime |createuserkey |updatedatetime |updateuserkey |businesskey |name |password |username |
+|---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------|
+|---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------|
+
+ 
+    |---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------| |memberid |createdatetime |createuserkey |updatedatetime |updateuserkey |businesskey |name |password |username | |---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------| |---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------| 
+2023-02-17 14:16:19.150 http-nio-35063-exec-2 [] DEBUG jdbc.sqlonly -  com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+1. select member0_.memberId as memberid1_2_, member0_.createDateTime as createda2_2_, member0_.createUserKey as createus3_2_, member0_.updateDateTime as updateda4_2_, member0_.updateUserKey as updateus5_2_, member0_.businessKey as business6_2_, member0_.name as name7_2_, member0_.password as password8_2_, member0_.username as username9_2_ from Member member0_ where member0_.username='llwodnjs@naver.com'
+
+ 
+    com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52) 1. select
+        member0_.memberId as memberid1_2_,
+        member0_.createDateTime as createda2_2_,
+        member0_.createUserKey as createus3_2_,
+        member0_.updateDateTime as updateda4_2_,
+        member0_.updateUserKey as updateus5_2_,
+        member0_.businessKey as business6_2_,
+        member0_.name as name7_2_,
+        member0_.password as password8_2_,
+        member0_.username as username9_2_ 
+    from
+        Member member0_ 
+    where
+        member0_.username='llwodnjs@naver.com' 
+2023-02-17 14:16:19.191 http-nio-35063-exec-2 [] INFO  jdbc.resultsettable - 
+|---------|------------------------|--------------|------------------------|--------------|--------------|-----|---------------------------------------------------------------------|-------------------|
+|memberid |createdatetime          |createuserkey |updatedatetime          |updateuserkey |businesskey   |name |password                                                             |username           |
+|---------|------------------------|--------------|------------------------|--------------|--------------|-----|---------------------------------------------------------------------|-------------------|
+|90       |2023-02-17 13:46:27.786 |null          |2023-02-17 13:46:27.786 |null          |MEM0060141811 |이재원  |{bcrypt}$2a$10$jXJc9vRzyigcSiw4GgMzR.IiRLIjL/DRTGLAGPucd0/kG8l4pxfA6 |llwodnjs@naver.com |
+|---------|------------------------|--------------|------------------------|--------------|--------------|-----|---------------------------------------------------------------------|-------------------|
+
+ 
+    |---------|------------------------|--------------|------------------------|--------------|--------------|-----|---------------------------------------------------------------------|-------------------| |memberid |createdatetime          |createuserkey |updatedatetime          |updateuserkey |businesskey   |name |password                                                             |username           | |---------|------------------------|--------------|------------------------|--------------|--------------|-----|---------------------------------------------------------------------|-------------------| |90       |2023-02-17 13:46:27.786 |null          |2023-02-17 13:46:27.786 |null          |MEM0060141811 |이재원  |{bcrypt}$2a$10$jXJc9vRzyigcSiw4GgMzR.IiRLIjL/DRTGLAGPucd0/kG8l4pxfA6 |llwodnjs@naver.com | |---------|------------------------|--------------|------------------------|--------------|--------------|-----|---------------------------------------------------------------------|-------------------| 
+2023-02-17 14:16:19.847 http-nio-35063-exec-2 [] DEBUG jdbc.sqlonly -  com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+1. select roles0_.member as member8_0_0_, roles0_.authorityId as authorit1_0_0_, roles0_.authorityId as authorit1_0_1_, roles0_.createDateTime as createda2_0_1_, roles0_.createUserKey as createus3_0_1_, roles0_.updateDateTime as updateda4_0_1_, roles0_.updateUserKey as updateus5_0_1_, roles0_.businessKey as business6_0_1_, roles0_.member as member8_0_1_, roles0_.name as name7_0_1_ from Authority roles0_ where roles0_.member=90
+
+ 
+    com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52) 1. select
+        roles0_.member as member8_0_0_,
+        roles0_.authorityId as authorit1_0_0_,
+        roles0_.authorityId as authorit1_0_1_,
+        roles0_.createDateTime as createda2_0_1_,
+        roles0_.createUserKey as createus3_0_1_,
+        roles0_.updateDateTime as updateda4_0_1_,
+        roles0_.updateUserKey as updateus5_0_1_,
+        roles0_.businessKey as business6_0_1_,
+        roles0_.member as member8_0_1_,
+        roles0_.name as name7_0_1_ 
+    from
+        Authority roles0_ 
+    where
+        roles0_.member=90 
+2023-02-17 14:16:19.887 http-nio-35063-exec-2 [] INFO  jdbc.resultsettable - 
+|-------|------------|------------|------------------------|--------------|------------------------|--------------|--------------|-------|-----|
+|member |authorityid |authorityid |createdatetime          |createuserkey |updatedatetime          |updateuserkey |businesskey   |member |name |
+|-------|------------|------------|------------------------|--------------|------------------------|--------------|--------------|-------|-----|
+|90     |91          |91          |2023-02-17 13:46:27.808 |null          |2023-02-17 13:46:27.808 |null          |AUT0285747923 |90     |USER |
+|-------|------------|------------|------------------------|--------------|------------------------|--------------|--------------|-------|-----|
+
+ 
+    |-------|------------|------------|------------------------|--------------|------------------------|--------------|--------------|-------|-----| |member |authorityid |authorityid |createdatetime          |createuserkey |updatedatetime          |updateuserkey |businesskey   |member |name | |-------|------------|------------|------------------------|--------------|------------------------|--------------|--------------|-------|-----| |90     |91          |91          |2023-02-17 13:46:27.808 |null          |2023-02-17 13:46:27.808 |null          |AUT0285747923 |90     |USER | |-------|------------|------------|------------------------|--------------|------------------------|--------------|--------------|-------|-----| 
+2023-02-17 14:18:14.944 restartedMain [] DEBUG jdbc.sqlonly -  com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+11. select * from `t1`.`member` where 1=0
+
+ 
+    com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52) 11. select
+        * 
+    from
+        `t1`.`member` 
+    where
+        1=0 
+2023-02-17 14:18:14.985 restartedMain [] INFO  jdbc.resultsettable - 
+|---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------|
+|memberid |createdatetime |createuserkey |updatedatetime |updateuserkey |businesskey |name |password |username |
+|---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------|
+|---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------|
+
+ 
+    |---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------| |memberid |createdatetime |createuserkey |updatedatetime |updateuserkey |businesskey |name |password |username | |---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------| |---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------| 
+2023-02-17 14:18:19.829 restartedMain [] DEBUG jdbc.sqlonly -  com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+21. select * from `t1`.`member` where 1=0
+
+ 
+    com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52) 21. select
+        * 
+    from
+        `t1`.`member` 
+    where
+        1=0 
+2023-02-17 14:18:19.886 restartedMain [] INFO  jdbc.resultsettable - 
+|---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------|
+|memberid |createdatetime |createuserkey |updatedatetime |updateuserkey |businesskey |name |password |username |
+|---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------|
+|---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------|
+
+ 
+    |---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------| |memberid |createdatetime |createuserkey |updatedatetime |updateuserkey |businesskey |name |password |username | |---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------| |---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------| 
+2023-02-17 14:18:31.980 restartedMain [] DEBUG jdbc.sqlonly -  com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+1. select * from `t1`.`member` where 1=0
+
+ 
+    com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52) 1. select
+        * 
+    from
+        `t1`.`member` 
+    where
+        1=0 
+2023-02-17 14:18:32.036 restartedMain [] INFO  jdbc.resultsettable - 
+|---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------|
+|memberid |createdatetime |createuserkey |updatedatetime |updateuserkey |businesskey |name |password |username |
+|---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------|
+|---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------|
+
+ 
+    |---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------| |memberid |createdatetime |createuserkey |updatedatetime |updateuserkey |businesskey |name |password |username | |---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------| |---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------| 
+2023-02-17 14:18:55.478 http-nio-35063-exec-10 [] DEBUG jdbc.sqlonly -  com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+1. select member0_.memberId as memberid1_2_, member0_.createDateTime as createda2_2_, member0_.createUserKey as createus3_2_, member0_.updateDateTime as updateda4_2_, member0_.updateUserKey as updateus5_2_, member0_.businessKey as business6_2_, member0_.name as name7_2_, member0_.password as password8_2_, member0_.username as username9_2_ from Member member0_ where member0_.username='llwodnjs@naver.com'
+
+ 
+    com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52) 1. select
+        member0_.memberId as memberid1_2_,
+        member0_.createDateTime as createda2_2_,
+        member0_.createUserKey as createus3_2_,
+        member0_.updateDateTime as updateda4_2_,
+        member0_.updateUserKey as updateus5_2_,
+        member0_.businessKey as business6_2_,
+        member0_.name as name7_2_,
+        member0_.password as password8_2_,
+        member0_.username as username9_2_ 
+    from
+        Member member0_ 
+    where
+        member0_.username='llwodnjs@naver.com' 
+2023-02-17 14:18:55.582 http-nio-35063-exec-10 [] INFO  jdbc.resultsettable - 
+|---------|------------------------|--------------|------------------------|--------------|--------------|-----|---------------------------------------------------------------------|-------------------|
+|memberid |createdatetime          |createuserkey |updatedatetime          |updateuserkey |businesskey   |name |password                                                             |username           |
+|---------|------------------------|--------------|------------------------|--------------|--------------|-----|---------------------------------------------------------------------|-------------------|
+|90       |2023-02-17 13:46:27.786 |null          |2023-02-17 13:46:27.786 |null          |MEM0060141811 |이재원  |{bcrypt}$2a$10$jXJc9vRzyigcSiw4GgMzR.IiRLIjL/DRTGLAGPucd0/kG8l4pxfA6 |llwodnjs@naver.com |
+|---------|------------------------|--------------|------------------------|--------------|--------------|-----|---------------------------------------------------------------------|-------------------|
+
+ 
+    |---------|------------------------|--------------|------------------------|--------------|--------------|-----|---------------------------------------------------------------------|-------------------| |memberid |createdatetime          |createuserkey |updatedatetime          |updateuserkey |businesskey   |name |password                                                             |username           | |---------|------------------------|--------------|------------------------|--------------|--------------|-----|---------------------------------------------------------------------|-------------------| |90       |2023-02-17 13:46:27.786 |null          |2023-02-17 13:46:27.786 |null          |MEM0060141811 |이재원  |{bcrypt}$2a$10$jXJc9vRzyigcSiw4GgMzR.IiRLIjL/DRTGLAGPucd0/kG8l4pxfA6 |llwodnjs@naver.com | |---------|------------------------|--------------|------------------------|--------------|--------------|-----|---------------------------------------------------------------------|-------------------| 
+2023-02-17 14:18:56.232 http-nio-35063-exec-10 [] DEBUG jdbc.sqlonly -  com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+1. select roles0_.member as member8_0_0_, roles0_.authorityId as authorit1_0_0_, roles0_.authorityId as authorit1_0_1_, roles0_.createDateTime as createda2_0_1_, roles0_.createUserKey as createus3_0_1_, roles0_.updateDateTime as updateda4_0_1_, roles0_.updateUserKey as updateus5_0_1_, roles0_.businessKey as business6_0_1_, roles0_.member as member8_0_1_, roles0_.name as name7_0_1_ from Authority roles0_ where roles0_.member=90
+
+ 
+    com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52) 1. select
+        roles0_.member as member8_0_0_,
+        roles0_.authorityId as authorit1_0_0_,
+        roles0_.authorityId as authorit1_0_1_,
+        roles0_.createDateTime as createda2_0_1_,
+        roles0_.createUserKey as createus3_0_1_,
+        roles0_.updateDateTime as updateda4_0_1_,
+        roles0_.updateUserKey as updateus5_0_1_,
+        roles0_.businessKey as business6_0_1_,
+        roles0_.member as member8_0_1_,
+        roles0_.name as name7_0_1_ 
+    from
+        Authority roles0_ 
+    where
+        roles0_.member=90 
+2023-02-17 14:18:56.308 http-nio-35063-exec-10 [] INFO  jdbc.resultsettable - 
+|-------|------------|------------|------------------------|--------------|------------------------|--------------|--------------|-------|-----|
+|member |authorityid |authorityid |createdatetime          |createuserkey |updatedatetime          |updateuserkey |businesskey   |member |name |
+|-------|------------|------------|------------------------|--------------|------------------------|--------------|--------------|-------|-----|
+|90     |91          |91          |2023-02-17 13:46:27.808 |null          |2023-02-17 13:46:27.808 |null          |AUT0285747923 |90     |USER |
+|-------|------------|------------|------------------------|--------------|------------------------|--------------|--------------|-------|-----|
+
+ 
+    |-------|------------|------------|------------------------|--------------|------------------------|--------------|--------------|-------|-----| |member |authorityid |authorityid |createdatetime          |createuserkey |updatedatetime          |updateuserkey |businesskey   |member |name | |-------|------------|------------|------------------------|--------------|------------------------|--------------|--------------|-------|-----| |90     |91          |91          |2023-02-17 13:46:27.808 |null          |2023-02-17 13:46:27.808 |null          |AUT0285747923 |90     |USER | |-------|------------|------------|------------------------|--------------|------------------------|--------------|--------------|-------|-----| 
+2023-02-17 14:19:52.423 restartedMain [] DEBUG jdbc.sqlonly -  com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+11. select * from `t1`.`member` where 1=0
+
+ 
+    com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52) 11. select
+        * 
+    from
+        `t1`.`member` 
+    where
+        1=0 
+2023-02-17 14:19:52.456 restartedMain [] INFO  jdbc.resultsettable - 
+|---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------|
+|memberid |createdatetime |createuserkey |updatedatetime |updateuserkey |businesskey |name |password |username |
+|---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------|
+|---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------|
+
+ 
+    |---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------| |memberid |createdatetime |createuserkey |updatedatetime |updateuserkey |businesskey |name |password |username | |---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------| |---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------| 
+2023-02-17 14:19:57.183 restartedMain [] DEBUG jdbc.sqlonly -  com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+21. select * from `t1`.`member` where 1=0
+
+ 
+    com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52) 21. select
+        * 
+    from
+        `t1`.`member` 
+    where
+        1=0 
+2023-02-17 14:19:57.205 restartedMain [] INFO  jdbc.resultsettable - 
+|---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------|
+|memberid |createdatetime |createuserkey |updatedatetime |updateuserkey |businesskey |name |password |username |
+|---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------|
+|---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------|
+
+ 
+    |---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------| |memberid |createdatetime |createuserkey |updatedatetime |updateuserkey |businesskey |name |password |username | |---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------| |---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------| 
+2023-02-17 14:20:02.015 http-nio-35063-exec-1 [] DEBUG jdbc.sqlonly -  com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+21. select member0_.memberId as memberid1_2_, member0_.createDateTime as createda2_2_, member0_.createUserKey as createus3_2_, member0_.updateDateTime as updateda4_2_, member0_.updateUserKey as updateus5_2_, member0_.businessKey as business6_2_, member0_.name as name7_2_, member0_.password as password8_2_, member0_.username as username9_2_ from Member member0_ where member0_.username='llwodnjs@naver.com'
+
+ 
+    com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52) 21. select
+        member0_.memberId as memberid1_2_,
+        member0_.createDateTime as createda2_2_,
+        member0_.createUserKey as createus3_2_,
+        member0_.updateDateTime as updateda4_2_,
+        member0_.updateUserKey as updateus5_2_,
+        member0_.businessKey as business6_2_,
+        member0_.name as name7_2_,
+        member0_.password as password8_2_,
+        member0_.username as username9_2_ 
+    from
+        Member member0_ 
+    where
+        member0_.username='llwodnjs@naver.com' 
+2023-02-17 14:20:02.047 http-nio-35063-exec-1 [] INFO  jdbc.resultsettable - 
+|---------|------------------------|--------------|------------------------|--------------|--------------|-----|---------------------------------------------------------------------|-------------------|
+|memberid |createdatetime          |createuserkey |updatedatetime          |updateuserkey |businesskey   |name |password                                                             |username           |
+|---------|------------------------|--------------|------------------------|--------------|--------------|-----|---------------------------------------------------------------------|-------------------|
+|90       |2023-02-17 13:46:27.786 |null          |2023-02-17 13:46:27.786 |null          |MEM0060141811 |이재원  |{bcrypt}$2a$10$jXJc9vRzyigcSiw4GgMzR.IiRLIjL/DRTGLAGPucd0/kG8l4pxfA6 |llwodnjs@naver.com |
+|---------|------------------------|--------------|------------------------|--------------|--------------|-----|---------------------------------------------------------------------|-------------------|
+
+ 
+    |---------|------------------------|--------------|------------------------|--------------|--------------|-----|---------------------------------------------------------------------|-------------------| |memberid |createdatetime          |createuserkey |updatedatetime          |updateuserkey |businesskey   |name |password                                                             |username           | |---------|------------------------|--------------|------------------------|--------------|--------------|-----|---------------------------------------------------------------------|-------------------| |90       |2023-02-17 13:46:27.786 |null          |2023-02-17 13:46:27.786 |null          |MEM0060141811 |이재원  |{bcrypt}$2a$10$jXJc9vRzyigcSiw4GgMzR.IiRLIjL/DRTGLAGPucd0/kG8l4pxfA6 |llwodnjs@naver.com | |---------|------------------------|--------------|------------------------|--------------|--------------|-----|---------------------------------------------------------------------|-------------------| 
+2023-02-17 14:20:02.608 http-nio-35063-exec-1 [] DEBUG jdbc.sqlonly -  com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+21. select roles0_.member as member4_0_0_, roles0_.authorityId as authorit1_0_0_, roles0_.authorityId as authorit1_0_1_, roles0_.businessKey as business2_0_1_, roles0_.member as member4_0_1_, roles0_.name as name3_0_1_ from Authority roles0_ where roles0_.member=90
+
+ 
+    com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52) 21. select
+        roles0_.member as member4_0_0_,
+        roles0_.authorityId as authorit1_0_0_,
+        roles0_.authorityId as authorit1_0_1_,
+        roles0_.businessKey as business2_0_1_,
+        roles0_.member as member4_0_1_,
+        roles0_.name as name3_0_1_ 
+    from
+        Authority roles0_ 
+    where
+        roles0_.member=90 
+2023-02-17 14:20:02.641 http-nio-35063-exec-1 [] INFO  jdbc.resultsettable - 
+|-------|------------|------------|--------------|-------|-----|
+|member |authorityid |authorityid |businesskey   |member |name |
+|-------|------------|------------|--------------|-------|-----|
+|90     |91          |91          |AUT0285747923 |90     |USER |
+|-------|------------|------------|--------------|-------|-----|
+
+ 
+    |-------|------------|------------|--------------|-------|-----| |member |authorityid |authorityid |businesskey   |member |name | |-------|------------|------------|--------------|-------|-----| |90     |91          |91          |AUT0285747923 |90     |USER | |-------|------------|------------|--------------|-------|-----| 
+2023-02-17 14:21:47.138 restartedMain [] DEBUG jdbc.sqlonly -  com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+31. select * from `t1`.`member` where 1=0
+
+ 
+    com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52) 31. select
+        * 
+    from
+        `t1`.`member` 
+    where
+        1=0 
+2023-02-17 14:21:47.161 restartedMain [] INFO  jdbc.resultsettable - 
+|---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------|
+|memberid |createdatetime |createuserkey |updatedatetime |updateuserkey |businesskey |name |password |username |
+|---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------|
+|---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------|
+
+ 
+    |---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------| |memberid |createdatetime |createuserkey |updatedatetime |updateuserkey |businesskey |name |password |username | |---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------| |---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------| 
+2023-02-17 14:21:55.155 http-nio-35063-exec-2 [] DEBUG jdbc.sqlonly -  com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+31. select member0_.memberId as memberid1_2_, member0_.createDateTime as createda2_2_, member0_.createUserKey as createus3_2_, member0_.updateDateTime as updateda4_2_, member0_.updateUserKey as updateus5_2_, member0_.businessKey as business6_2_, member0_.name as name7_2_, member0_.password as password8_2_, member0_.username as username9_2_ from Member member0_ where member0_.username='llwodnjs@naver.com'
+
+ 
+    com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52) 31. select
+        member0_.memberId as memberid1_2_,
+        member0_.createDateTime as createda2_2_,
+        member0_.createUserKey as createus3_2_,
+        member0_.updateDateTime as updateda4_2_,
+        member0_.updateUserKey as updateus5_2_,
+        member0_.businessKey as business6_2_,
+        member0_.name as name7_2_,
+        member0_.password as password8_2_,
+        member0_.username as username9_2_ 
+    from
+        Member member0_ 
+    where
+        member0_.username='llwodnjs@naver.com' 
+2023-02-17 14:21:55.212 http-nio-35063-exec-2 [] INFO  jdbc.resultsettable - 
+|---------|------------------------|--------------|------------------------|--------------|--------------|-----|---------------------------------------------------------------------|-------------------|
+|memberid |createdatetime          |createuserkey |updatedatetime          |updateuserkey |businesskey   |name |password                                                             |username           |
+|---------|------------------------|--------------|------------------------|--------------|--------------|-----|---------------------------------------------------------------------|-------------------|
+|90       |2023-02-17 13:46:27.786 |null          |2023-02-17 13:46:27.786 |null          |MEM0060141811 |이재원  |{bcrypt}$2a$10$jXJc9vRzyigcSiw4GgMzR.IiRLIjL/DRTGLAGPucd0/kG8l4pxfA6 |llwodnjs@naver.com |
+|---------|------------------------|--------------|------------------------|--------------|--------------|-----|---------------------------------------------------------------------|-------------------|
+
+ 
+    |---------|------------------------|--------------|------------------------|--------------|--------------|-----|---------------------------------------------------------------------|-------------------| |memberid |createdatetime          |createuserkey |updatedatetime          |updateuserkey |businesskey   |name |password                                                             |username           | |---------|------------------------|--------------|------------------------|--------------|--------------|-----|---------------------------------------------------------------------|-------------------| |90       |2023-02-17 13:46:27.786 |null          |2023-02-17 13:46:27.786 |null          |MEM0060141811 |이재원  |{bcrypt}$2a$10$jXJc9vRzyigcSiw4GgMzR.IiRLIjL/DRTGLAGPucd0/kG8l4pxfA6 |llwodnjs@naver.com | |---------|------------------------|--------------|------------------------|--------------|--------------|-----|---------------------------------------------------------------------|-------------------| 
+2023-02-17 14:21:55.778 http-nio-35063-exec-2 [] DEBUG jdbc.sqlonly -  com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+31. select roles0_.member as member4_0_0_, roles0_.authorityId as authorit1_0_0_, roles0_.authorityId as authorit1_0_1_, roles0_.businessKey as business2_0_1_, roles0_.member as member4_0_1_, roles0_.name as name3_0_1_ from Authority roles0_ where roles0_.member=90
+
+ 
+    com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52) 31. select
+        roles0_.member as member4_0_0_,
+        roles0_.authorityId as authorit1_0_0_,
+        roles0_.authorityId as authorit1_0_1_,
+        roles0_.businessKey as business2_0_1_,
+        roles0_.member as member4_0_1_,
+        roles0_.name as name3_0_1_ 
+    from
+        Authority roles0_ 
+    where
+        roles0_.member=90 
+2023-02-17 14:21:55.844 http-nio-35063-exec-2 [] INFO  jdbc.resultsettable - 
+|-------|------------|------------|--------------|-------|-----|
+|member |authorityid |authorityid |businesskey   |member |name |
+|-------|------------|------------|--------------|-------|-----|
+|90     |91          |91          |AUT0285747923 |90     |USER |
+|-------|------------|------------|--------------|-------|-----|
+
+ 
+    |-------|------------|------------|--------------|-------|-----| |member |authorityid |authorityid |businesskey   |member |name | |-------|------------|------------|--------------|-------|-----| |90     |91          |91          |AUT0285747923 |90     |USER | |-------|------------|------------|--------------|-------|-----| 
+2023-02-17 14:28:00.268 restartedMain [] DEBUG jdbc.sqlonly -  com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+1. select * from `t1`.`member` where 1=0
+
+ 
+    com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52) 1. select
+        * 
+    from
+        `t1`.`member` 
+    where
+        1=0 
+2023-02-17 14:28:00.319 restartedMain [] INFO  jdbc.resultsettable - 
+|---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------|
+|memberid |createdatetime |createuserkey |updatedatetime |updateuserkey |businesskey |name |password |username |
+|---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------|
+|---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------|
+
+ 
+    |---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------| |memberid |createdatetime |createuserkey |updatedatetime |updateuserkey |businesskey |name |password |username | |---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------| |---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------| 
+2023-02-17 14:28:08.757 http-nio-35063-exec-7 [] DEBUG jdbc.sqlonly -  com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+1. select member0_.memberId as memberid1_2_, member0_.createDateTime as createda2_2_, member0_.createUserKey as createus3_2_, member0_.updateDateTime as updateda4_2_, member0_.updateUserKey as updateus5_2_, member0_.businessKey as business6_2_, member0_.name as name7_2_, member0_.password as password8_2_, member0_.username as username9_2_ from Member member0_ where member0_.username='llwodnjs@naver.com'
+
+ 
+    com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52) 1. select
+        member0_.memberId as memberid1_2_,
+        member0_.createDateTime as createda2_2_,
+        member0_.createUserKey as createus3_2_,
+        member0_.updateDateTime as updateda4_2_,
+        member0_.updateUserKey as updateus5_2_,
+        member0_.businessKey as business6_2_,
+        member0_.name as name7_2_,
+        member0_.password as password8_2_,
+        member0_.username as username9_2_ 
+    from
+        Member member0_ 
+    where
+        member0_.username='llwodnjs@naver.com' 
+2023-02-17 14:28:08.842 http-nio-35063-exec-7 [] INFO  jdbc.resultsettable - 
+|---------|------------------------|--------------|------------------------|--------------|--------------|-----|---------------------------------------------------------------------|-------------------|
+|memberid |createdatetime          |createuserkey |updatedatetime          |updateuserkey |businesskey   |name |password                                                             |username           |
+|---------|------------------------|--------------|------------------------|--------------|--------------|-----|---------------------------------------------------------------------|-------------------|
+|90       |2023-02-17 13:46:27.786 |null          |2023-02-17 13:46:27.786 |null          |MEM0060141811 |이재원  |{bcrypt}$2a$10$jXJc9vRzyigcSiw4GgMzR.IiRLIjL/DRTGLAGPucd0/kG8l4pxfA6 |llwodnjs@naver.com |
+|---------|------------------------|--------------|------------------------|--------------|--------------|-----|---------------------------------------------------------------------|-------------------|
+
+ 
+    |---------|------------------------|--------------|------------------------|--------------|--------------|-----|---------------------------------------------------------------------|-------------------| |memberid |createdatetime          |createuserkey |updatedatetime          |updateuserkey |businesskey   |name |password                                                             |username           | |---------|------------------------|--------------|------------------------|--------------|--------------|-----|---------------------------------------------------------------------|-------------------| |90       |2023-02-17 13:46:27.786 |null          |2023-02-17 13:46:27.786 |null          |MEM0060141811 |이재원  |{bcrypt}$2a$10$jXJc9vRzyigcSiw4GgMzR.IiRLIjL/DRTGLAGPucd0/kG8l4pxfA6 |llwodnjs@naver.com | |---------|------------------------|--------------|------------------------|--------------|--------------|-----|---------------------------------------------------------------------|-------------------| 
+2023-02-17 14:28:09.456 http-nio-35063-exec-7 [] DEBUG jdbc.sqlonly -  com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+1. select roles0_.member as member8_0_0_, roles0_.authorityId as authorit1_0_0_, roles0_.authorityId as authorit1_0_1_, roles0_.createDateTime as createda2_0_1_, roles0_.createUserKey as createus3_0_1_, roles0_.updateDateTime as updateda4_0_1_, roles0_.updateUserKey as updateus5_0_1_, roles0_.businessKey as business6_0_1_, roles0_.member as member8_0_1_, roles0_.name as name7_0_1_ from Authority roles0_ where roles0_.member=90
+
+ 
+    com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52) 1. select
+        roles0_.member as member8_0_0_,
+        roles0_.authorityId as authorit1_0_0_,
+        roles0_.authorityId as authorit1_0_1_,
+        roles0_.createDateTime as createda2_0_1_,
+        roles0_.createUserKey as createus3_0_1_,
+        roles0_.updateDateTime as updateda4_0_1_,
+        roles0_.updateUserKey as updateus5_0_1_,
+        roles0_.businessKey as business6_0_1_,
+        roles0_.member as member8_0_1_,
+        roles0_.name as name7_0_1_ 
+    from
+        Authority roles0_ 
+    where
+        roles0_.member=90 
+2023-02-17 14:28:09.516 http-nio-35063-exec-7 [] INFO  jdbc.resultsettable - 
+|-------|------------|------------|------------------------|--------------|------------------------|--------------|--------------|-------|-----|
+|member |authorityid |authorityid |createdatetime          |createuserkey |updatedatetime          |updateuserkey |businesskey   |member |name |
+|-------|------------|------------|------------------------|--------------|------------------------|--------------|--------------|-------|-----|
+|90     |91          |91          |2023-02-17 13:46:27.808 |null          |2023-02-17 13:46:27.808 |null          |AUT0285747923 |90     |USER |
+|-------|------------|------------|------------------------|--------------|------------------------|--------------|--------------|-------|-----|
+
+ 
+    |-------|------------|------------|------------------------|--------------|------------------------|--------------|--------------|-------|-----| |member |authorityid |authorityid |createdatetime          |createuserkey |updatedatetime          |updateuserkey |businesskey   |member |name | |-------|------------|------------|------------------------|--------------|------------------------|--------------|--------------|-------|-----| |90     |91          |91          |2023-02-17 13:46:27.808 |null          |2023-02-17 13:46:27.808 |null          |AUT0285747923 |90     |USER | |-------|------------|------------|------------------------|--------------|------------------------|--------------|--------------|-------|-----| 
+2023-02-17 14:31:02.354 restartedMain [] DEBUG jdbc.sqlonly -  com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+11. select * from `t1`.`member` where 1=0
+
+ 
+    com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52) 11. select
+        * 
+    from
+        `t1`.`member` 
+    where
+        1=0 
+2023-02-17 14:31:02.380 restartedMain [] INFO  jdbc.resultsettable - 
+|---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------|
+|memberid |createdatetime |createuserkey |updatedatetime |updateuserkey |businesskey |name |password |username |
+|---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------|
+|---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------|
+
+ 
+    |---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------| |memberid |createdatetime |createuserkey |updatedatetime |updateuserkey |businesskey |name |password |username | |---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------| |---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------| 
+2023-02-17 14:31:08.117 http-nio-35063-exec-2 [] DEBUG jdbc.sqlonly -  com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+11. select member0_.memberId as memberid1_2_, member0_.createDateTime as createda2_2_, member0_.createUserKey as createus3_2_, member0_.updateDateTime as updateda4_2_, member0_.updateUserKey as updateus5_2_, member0_.businessKey as business6_2_, member0_.name as name7_2_, member0_.password as password8_2_, member0_.username as username9_2_ from Member member0_ where member0_.username='llwodnjs@naver.com'
+
+ 
+    com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52) 11. select
+        member0_.memberId as memberid1_2_,
+        member0_.createDateTime as createda2_2_,
+        member0_.createUserKey as createus3_2_,
+        member0_.updateDateTime as updateda4_2_,
+        member0_.updateUserKey as updateus5_2_,
+        member0_.businessKey as business6_2_,
+        member0_.name as name7_2_,
+        member0_.password as password8_2_,
+        member0_.username as username9_2_ 
+    from
+        Member member0_ 
+    where
+        member0_.username='llwodnjs@naver.com' 
+2023-02-17 14:31:08.153 http-nio-35063-exec-2 [] INFO  jdbc.resultsettable - 
+|---------|------------------------|--------------|------------------------|--------------|--------------|-----|---------------------------------------------------------------------|-------------------|
+|memberid |createdatetime          |createuserkey |updatedatetime          |updateuserkey |businesskey   |name |password                                                             |username           |
+|---------|------------------------|--------------|------------------------|--------------|--------------|-----|---------------------------------------------------------------------|-------------------|
+|90       |2023-02-17 13:46:27.786 |null          |2023-02-17 13:46:27.786 |null          |MEM0060141811 |이재원  |{bcrypt}$2a$10$jXJc9vRzyigcSiw4GgMzR.IiRLIjL/DRTGLAGPucd0/kG8l4pxfA6 |llwodnjs@naver.com |
+|---------|------------------------|--------------|------------------------|--------------|--------------|-----|---------------------------------------------------------------------|-------------------|
+
+ 
+    |---------|------------------------|--------------|------------------------|--------------|--------------|-----|---------------------------------------------------------------------|-------------------| |memberid |createdatetime          |createuserkey |updatedatetime          |updateuserkey |businesskey   |name |password                                                             |username           | |---------|------------------------|--------------|------------------------|--------------|--------------|-----|---------------------------------------------------------------------|-------------------| |90       |2023-02-17 13:46:27.786 |null          |2023-02-17 13:46:27.786 |null          |MEM0060141811 |이재원  |{bcrypt}$2a$10$jXJc9vRzyigcSiw4GgMzR.IiRLIjL/DRTGLAGPucd0/kG8l4pxfA6 |llwodnjs@naver.com | |---------|------------------------|--------------|------------------------|--------------|--------------|-----|---------------------------------------------------------------------|-------------------| 
+2023-02-17 14:31:08.721 http-nio-35063-exec-2 [] DEBUG jdbc.sqlonly -  com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+11. select roles0_.member as member8_0_0_, roles0_.authorityId as authorit1_0_0_, roles0_.authorityId as authorit1_0_1_, roles0_.createDateTime as createda2_0_1_, roles0_.createUserKey as createus3_0_1_, roles0_.updateDateTime as updateda4_0_1_, roles0_.updateUserKey as updateus5_0_1_, roles0_.businessKey as business6_0_1_, roles0_.member as member8_0_1_, roles0_.name as name7_0_1_ from Authority roles0_ where roles0_.member=90
+
+ 
+    com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52) 11. select
+        roles0_.member as member8_0_0_,
+        roles0_.authorityId as authorit1_0_0_,
+        roles0_.authorityId as authorit1_0_1_,
+        roles0_.createDateTime as createda2_0_1_,
+        roles0_.createUserKey as createus3_0_1_,
+        roles0_.updateDateTime as updateda4_0_1_,
+        roles0_.updateUserKey as updateus5_0_1_,
+        roles0_.businessKey as business6_0_1_,
+        roles0_.member as member8_0_1_,
+        roles0_.name as name7_0_1_ 
+    from
+        Authority roles0_ 
+    where
+        roles0_.member=90 
+2023-02-17 14:31:08.771 http-nio-35063-exec-2 [] INFO  jdbc.resultsettable - 
+|-------|------------|------------|------------------------|--------------|------------------------|--------------|--------------|-------|-----|
+|member |authorityid |authorityid |createdatetime          |createuserkey |updatedatetime          |updateuserkey |businesskey   |member |name |
+|-------|------------|------------|------------------------|--------------|------------------------|--------------|--------------|-------|-----|
+|90     |91          |91          |2023-02-17 13:46:27.808 |null          |2023-02-17 13:46:27.808 |null          |AUT0285747923 |90     |USER |
+|-------|------------|------------|------------------------|--------------|------------------------|--------------|--------------|-------|-----|
+
+ 
+    |-------|------------|------------|------------------------|--------------|------------------------|--------------|--------------|-------|-----| |member |authorityid |authorityid |createdatetime          |createuserkey |updatedatetime          |updateuserkey |businesskey   |member |name | |-------|------------|------------|------------------------|--------------|------------------------|--------------|--------------|-------|-----| |90     |91          |91          |2023-02-17 13:46:27.808 |null          |2023-02-17 13:46:27.808 |null          |AUT0285747923 |90     |USER | |-------|------------|------------|------------------------|--------------|------------------------|--------------|--------------|-------|-----| 
+2023-02-17 14:33:47.145 restartedMain [] DEBUG jdbc.sqlonly -  com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+21. select * from `t1`.`member` where 1=0
+
+ 
+    com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52) 21. select
+        * 
+    from
+        `t1`.`member` 
+    where
+        1=0 
+2023-02-17 14:33:47.167 restartedMain [] INFO  jdbc.resultsettable - 
+|---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------|
+|memberid |createdatetime |createuserkey |updatedatetime |updateuserkey |businesskey |name |password |username |
+|---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------|
+|---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------|
+
+ 
+    |---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------| |memberid |createdatetime |createuserkey |updatedatetime |updateuserkey |businesskey |name |password |username | |---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------| |---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------| 
+2023-02-17 14:34:00.571 http-nio-35063-exec-2 [] DEBUG jdbc.sqlonly -  com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+21. select member0_.memberId as memberid1_2_, member0_.createDateTime as createda2_2_, member0_.createUserKey as createus3_2_, member0_.updateDateTime as updateda4_2_, member0_.updateUserKey as updateus5_2_, member0_.businessKey as business6_2_, member0_.name as name7_2_, member0_.password as password8_2_, member0_.username as username9_2_ from Member member0_ where member0_.username='llwodnjs@naver.com'
+
+ 
+    com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52) 21. select
+        member0_.memberId as memberid1_2_,
+        member0_.createDateTime as createda2_2_,
+        member0_.createUserKey as createus3_2_,
+        member0_.updateDateTime as updateda4_2_,
+        member0_.updateUserKey as updateus5_2_,
+        member0_.businessKey as business6_2_,
+        member0_.name as name7_2_,
+        member0_.password as password8_2_,
+        member0_.username as username9_2_ 
+    from
+        Member member0_ 
+    where
+        member0_.username='llwodnjs@naver.com' 
+2023-02-17 14:34:00.610 http-nio-35063-exec-2 [] INFO  jdbc.resultsettable - 
+|---------|------------------------|--------------|------------------------|--------------|--------------|-----|---------------------------------------------------------------------|-------------------|
+|memberid |createdatetime          |createuserkey |updatedatetime          |updateuserkey |businesskey   |name |password                                                             |username           |
+|---------|------------------------|--------------|------------------------|--------------|--------------|-----|---------------------------------------------------------------------|-------------------|
+|90       |2023-02-17 13:46:27.786 |null          |2023-02-17 13:46:27.786 |null          |MEM0060141811 |이재원  |{bcrypt}$2a$10$jXJc9vRzyigcSiw4GgMzR.IiRLIjL/DRTGLAGPucd0/kG8l4pxfA6 |llwodnjs@naver.com |
+|---------|------------------------|--------------|------------------------|--------------|--------------|-----|---------------------------------------------------------------------|-------------------|
+
+ 
+    |---------|------------------------|--------------|------------------------|--------------|--------------|-----|---------------------------------------------------------------------|-------------------| |memberid |createdatetime          |createuserkey |updatedatetime          |updateuserkey |businesskey   |name |password                                                             |username           | |---------|------------------------|--------------|------------------------|--------------|--------------|-----|---------------------------------------------------------------------|-------------------| |90       |2023-02-17 13:46:27.786 |null          |2023-02-17 13:46:27.786 |null          |MEM0060141811 |이재원  |{bcrypt}$2a$10$jXJc9vRzyigcSiw4GgMzR.IiRLIjL/DRTGLAGPucd0/kG8l4pxfA6 |llwodnjs@naver.com | |---------|------------------------|--------------|------------------------|--------------|--------------|-----|---------------------------------------------------------------------|-------------------| 
+2023-02-17 14:34:01.168 http-nio-35063-exec-2 [] DEBUG jdbc.sqlonly -  com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+21. select roles0_.member as member8_0_0_, roles0_.authorityId as authorit1_0_0_, roles0_.authorityId as authorit1_0_1_, roles0_.createDateTime as createda2_0_1_, roles0_.createUserKey as createus3_0_1_, roles0_.updateDateTime as updateda4_0_1_, roles0_.updateUserKey as updateus5_0_1_, roles0_.businessKey as business6_0_1_, roles0_.member as member8_0_1_, roles0_.name as name7_0_1_ from Authority roles0_ where roles0_.member=90
+
+ 
+    com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52) 21. select
+        roles0_.member as member8_0_0_,
+        roles0_.authorityId as authorit1_0_0_,
+        roles0_.authorityId as authorit1_0_1_,
+        roles0_.createDateTime as createda2_0_1_,
+        roles0_.createUserKey as createus3_0_1_,
+        roles0_.updateDateTime as updateda4_0_1_,
+        roles0_.updateUserKey as updateus5_0_1_,
+        roles0_.businessKey as business6_0_1_,
+        roles0_.member as member8_0_1_,
+        roles0_.name as name7_0_1_ 
+    from
+        Authority roles0_ 
+    where
+        roles0_.member=90 
+2023-02-17 14:34:01.188 http-nio-35063-exec-2 [] INFO  jdbc.resultsettable - 
+|-------|------------|------------|------------------------|--------------|------------------------|--------------|--------------|-------|-----|
+|member |authorityid |authorityid |createdatetime          |createuserkey |updatedatetime          |updateuserkey |businesskey   |member |name |
+|-------|------------|------------|------------------------|--------------|------------------------|--------------|--------------|-------|-----|
+|90     |91          |91          |2023-02-17 13:46:27.808 |null          |2023-02-17 13:46:27.808 |null          |AUT0285747923 |90     |USER |
+|-------|------------|------------|------------------------|--------------|------------------------|--------------|--------------|-------|-----|
+
+ 
+    |-------|------------|------------|------------------------|--------------|------------------------|--------------|--------------|-------|-----| |member |authorityid |authorityid |createdatetime          |createuserkey |updatedatetime          |updateuserkey |businesskey   |member |name | |-------|------------|------------|------------------------|--------------|------------------------|--------------|--------------|-------|-----| |90     |91          |91          |2023-02-17 13:46:27.808 |null          |2023-02-17 13:46:27.808 |null          |AUT0285747923 |90     |USER | |-------|------------|------------|------------------------|--------------|------------------------|--------------|--------------|-------|-----| 
+2023-02-17 14:34:31.947 restartedMain [] DEBUG jdbc.sqlonly -  com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+31. select * from `t1`.`member` where 1=0
+
+ 
+    com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52) 31. select
+        * 
+    from
+        `t1`.`member` 
+    where
+        1=0 
+2023-02-17 14:34:31.979 restartedMain [] INFO  jdbc.resultsettable - 
+|---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------|
+|memberid |createdatetime |createuserkey |updatedatetime |updateuserkey |businesskey |name |password |username |
+|---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------|
+|---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------|
+
+ 
+    |---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------| |memberid |createdatetime |createuserkey |updatedatetime |updateuserkey |businesskey |name |password |username | |---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------| |---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------| 
+2023-02-17 14:34:37.445 http-nio-35063-exec-1 [] DEBUG jdbc.sqlonly -  com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+31. select member0_.memberId as memberid1_2_, member0_.createDateTime as createda2_2_, member0_.createUserKey as createus3_2_, member0_.updateDateTime as updateda4_2_, member0_.updateUserKey as updateus5_2_, member0_.businessKey as business6_2_, member0_.name as name7_2_, member0_.password as password8_2_, member0_.username as username9_2_ from Member member0_ where member0_.username='llwodnjs@naver.com'
+
+ 
+    com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52) 31. select
+        member0_.memberId as memberid1_2_,
+        member0_.createDateTime as createda2_2_,
+        member0_.createUserKey as createus3_2_,
+        member0_.updateDateTime as updateda4_2_,
+        member0_.updateUserKey as updateus5_2_,
+        member0_.businessKey as business6_2_,
+        member0_.name as name7_2_,
+        member0_.password as password8_2_,
+        member0_.username as username9_2_ 
+    from
+        Member member0_ 
+    where
+        member0_.username='llwodnjs@naver.com' 
+2023-02-17 14:34:37.480 http-nio-35063-exec-1 [] INFO  jdbc.resultsettable - 
+|---------|------------------------|--------------|------------------------|--------------|--------------|-----|---------------------------------------------------------------------|-------------------|
+|memberid |createdatetime          |createuserkey |updatedatetime          |updateuserkey |businesskey   |name |password                                                             |username           |
+|---------|------------------------|--------------|------------------------|--------------|--------------|-----|---------------------------------------------------------------------|-------------------|
+|90       |2023-02-17 13:46:27.786 |null          |2023-02-17 13:46:27.786 |null          |MEM0060141811 |이재원  |{bcrypt}$2a$10$jXJc9vRzyigcSiw4GgMzR.IiRLIjL/DRTGLAGPucd0/kG8l4pxfA6 |llwodnjs@naver.com |
+|---------|------------------------|--------------|------------------------|--------------|--------------|-----|---------------------------------------------------------------------|-------------------|
+
+ 
+    |---------|------------------------|--------------|------------------------|--------------|--------------|-----|---------------------------------------------------------------------|-------------------| |memberid |createdatetime          |createuserkey |updatedatetime          |updateuserkey |businesskey   |name |password                                                             |username           | |---------|------------------------|--------------|------------------------|--------------|--------------|-----|---------------------------------------------------------------------|-------------------| |90       |2023-02-17 13:46:27.786 |null          |2023-02-17 13:46:27.786 |null          |MEM0060141811 |이재원  |{bcrypt}$2a$10$jXJc9vRzyigcSiw4GgMzR.IiRLIjL/DRTGLAGPucd0/kG8l4pxfA6 |llwodnjs@naver.com | |---------|------------------------|--------------|------------------------|--------------|--------------|-----|---------------------------------------------------------------------|-------------------| 
+2023-02-17 14:34:38.024 http-nio-35063-exec-1 [] DEBUG jdbc.sqlonly -  com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+31. select roles0_.member as member8_0_0_, roles0_.authorityId as authorit1_0_0_, roles0_.authorityId as authorit1_0_1_, roles0_.createDateTime as createda2_0_1_, roles0_.createUserKey as createus3_0_1_, roles0_.updateDateTime as updateda4_0_1_, roles0_.updateUserKey as updateus5_0_1_, roles0_.businessKey as business6_0_1_, roles0_.member as member8_0_1_, roles0_.name as name7_0_1_ from Authority roles0_ where roles0_.member=90
+
+ 
+    com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52) 31. select
+        roles0_.member as member8_0_0_,
+        roles0_.authorityId as authorit1_0_0_,
+        roles0_.authorityId as authorit1_0_1_,
+        roles0_.createDateTime as createda2_0_1_,
+        roles0_.createUserKey as createus3_0_1_,
+        roles0_.updateDateTime as updateda4_0_1_,
+        roles0_.updateUserKey as updateus5_0_1_,
+        roles0_.businessKey as business6_0_1_,
+        roles0_.member as member8_0_1_,
+        roles0_.name as name7_0_1_ 
+    from
+        Authority roles0_ 
+    where
+        roles0_.member=90 
+2023-02-17 14:34:38.048 http-nio-35063-exec-1 [] INFO  jdbc.resultsettable - 
+|-------|------------|------------|------------------------|--------------|------------------------|--------------|--------------|-------|-----|
+|member |authorityid |authorityid |createdatetime          |createuserkey |updatedatetime          |updateuserkey |businesskey   |member |name |
+|-------|------------|------------|------------------------|--------------|------------------------|--------------|--------------|-------|-----|
+|90     |91          |91          |2023-02-17 13:46:27.808 |null          |2023-02-17 13:46:27.808 |null          |AUT0285747923 |90     |USER |
+|-------|------------|------------|------------------------|--------------|------------------------|--------------|--------------|-------|-----|
+
+ 
+    |-------|------------|------------|------------------------|--------------|------------------------|--------------|--------------|-------|-----| |member |authorityid |authorityid |createdatetime          |createuserkey |updatedatetime          |updateuserkey |businesskey   |member |name | |-------|------------|------------|------------------------|--------------|------------------------|--------------|--------------|-------|-----| |90     |91          |91          |2023-02-17 13:46:27.808 |null          |2023-02-17 13:46:27.808 |null          |AUT0285747923 |90     |USER | |-------|------------|------------|------------------------|--------------|------------------------|--------------|--------------|-------|-----| 
+2023-02-17 14:50:18.583 restartedMain [] DEBUG jdbc.sqlonly -  com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+41. select * from `t1`.`member` where 1=0
+
+ 
+    com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52) 41. select
+        * 
+    from
+        `t1`.`member` 
+    where
+        1=0 
+2023-02-17 14:50:18.609 restartedMain [] INFO  jdbc.resultsettable - 
+|---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------|
+|memberid |createdatetime |createuserkey |updatedatetime |updateuserkey |businesskey |name |password |username |
+|---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------|
+|---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------|
+
+ 
+    |---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------| |memberid |createdatetime |createuserkey |updatedatetime |updateuserkey |businesskey |name |password |username | |---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------| |---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------| 
+2023-02-17 14:50:23.256 http-nio-35063-exec-2 [] DEBUG jdbc.sqlonly -  com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+41. select member0_.memberId as memberid1_2_, member0_.createDateTime as createda2_2_, member0_.createUserKey as createus3_2_, member0_.updateDateTime as updateda4_2_, member0_.updateUserKey as updateus5_2_, member0_.businessKey as business6_2_, member0_.name as name7_2_, member0_.password as password8_2_, member0_.username as username9_2_ from Member member0_ where member0_.username='llwodnjs@naver.com'
+
+ 
+    com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52) 41. select
+        member0_.memberId as memberid1_2_,
+        member0_.createDateTime as createda2_2_,
+        member0_.createUserKey as createus3_2_,
+        member0_.updateDateTime as updateda4_2_,
+        member0_.updateUserKey as updateus5_2_,
+        member0_.businessKey as business6_2_,
+        member0_.name as name7_2_,
+        member0_.password as password8_2_,
+        member0_.username as username9_2_ 
+    from
+        Member member0_ 
+    where
+        member0_.username='llwodnjs@naver.com' 
+2023-02-17 14:50:23.290 http-nio-35063-exec-2 [] INFO  jdbc.resultsettable - 
+|---------|------------------------|--------------|------------------------|--------------|--------------|-----|---------------------------------------------------------------------|-------------------|
+|memberid |createdatetime          |createuserkey |updatedatetime          |updateuserkey |businesskey   |name |password                                                             |username           |
+|---------|------------------------|--------------|------------------------|--------------|--------------|-----|---------------------------------------------------------------------|-------------------|
+|90       |2023-02-17 13:46:27.786 |null          |2023-02-17 13:46:27.786 |null          |MEM0060141811 |이재원  |{bcrypt}$2a$10$jXJc9vRzyigcSiw4GgMzR.IiRLIjL/DRTGLAGPucd0/kG8l4pxfA6 |llwodnjs@naver.com |
+|---------|------------------------|--------------|------------------------|--------------|--------------|-----|---------------------------------------------------------------------|-------------------|
+
+ 
+    |---------|------------------------|--------------|------------------------|--------------|--------------|-----|---------------------------------------------------------------------|-------------------| |memberid |createdatetime          |createuserkey |updatedatetime          |updateuserkey |businesskey   |name |password                                                             |username           | |---------|------------------------|--------------|------------------------|--------------|--------------|-----|---------------------------------------------------------------------|-------------------| |90       |2023-02-17 13:46:27.786 |null          |2023-02-17 13:46:27.786 |null          |MEM0060141811 |이재원  |{bcrypt}$2a$10$jXJc9vRzyigcSiw4GgMzR.IiRLIjL/DRTGLAGPucd0/kG8l4pxfA6 |llwodnjs@naver.com | |---------|------------------------|--------------|------------------------|--------------|--------------|-----|---------------------------------------------------------------------|-------------------| 
+2023-02-17 14:50:23.402 http-nio-35063-exec-2 [] DEBUG jdbc.sqlonly -  com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+41. select roles0_.member as member8_0_0_, roles0_.authorityId as authorit1_0_0_, roles0_.authorityId as authorit1_0_1_, roles0_.createDateTime as createda2_0_1_, roles0_.createUserKey as createus3_0_1_, roles0_.updateDateTime as updateda4_0_1_, roles0_.updateUserKey as updateus5_0_1_, roles0_.businessKey as business6_0_1_, roles0_.member as member8_0_1_, roles0_.name as name7_0_1_ from Authority roles0_ where roles0_.member=90
+
+ 
+    com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52) 41. select
+        roles0_.member as member8_0_0_,
+        roles0_.authorityId as authorit1_0_0_,
+        roles0_.authorityId as authorit1_0_1_,
+        roles0_.createDateTime as createda2_0_1_,
+        roles0_.createUserKey as createus3_0_1_,
+        roles0_.updateDateTime as updateda4_0_1_,
+        roles0_.updateUserKey as updateus5_0_1_,
+        roles0_.businessKey as business6_0_1_,
+        roles0_.member as member8_0_1_,
+        roles0_.name as name7_0_1_ 
+    from
+        Authority roles0_ 
+    where
+        roles0_.member=90 
+2023-02-17 14:50:23.435 http-nio-35063-exec-2 [] INFO  jdbc.resultsettable - 
+|-------|------------|------------|------------------------|--------------|------------------------|--------------|--------------|-------|-----|
+|member |authorityid |authorityid |createdatetime          |createuserkey |updatedatetime          |updateuserkey |businesskey   |member |name |
+|-------|------------|------------|------------------------|--------------|------------------------|--------------|--------------|-------|-----|
+|90     |91          |91          |2023-02-17 13:46:27.808 |null          |2023-02-17 13:46:27.808 |null          |AUT0285747923 |90     |USER |
+|-------|------------|------------|------------------------|--------------|------------------------|--------------|--------------|-------|-----|
+
+ 
+    |-------|------------|------------|------------------------|--------------|------------------------|--------------|--------------|-------|-----| |member |authorityid |authorityid |createdatetime          |createuserkey |updatedatetime          |updateuserkey |businesskey   |member |name | |-------|------------|------------|------------------------|--------------|------------------------|--------------|--------------|-------|-----| |90     |91          |91          |2023-02-17 13:46:27.808 |null          |2023-02-17 13:46:27.808 |null          |AUT0285747923 |90     |USER | |-------|------------|------------|------------------------|--------------|------------------------|--------------|--------------|-------|-----| 
+2023-02-17 14:50:27.289 http-nio-35063-exec-3 [] DEBUG jdbc.sqlonly -  com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+41. select member0_.memberId as memberid1_2_, member0_.createDateTime as createda2_2_, member0_.createUserKey as createus3_2_, member0_.updateDateTime as updateda4_2_, member0_.updateUserKey as updateus5_2_, member0_.businessKey as business6_2_, member0_.name as name7_2_, member0_.password as password8_2_, member0_.username as username9_2_ from Member member0_ where member0_.username='llwodnjs@naver.com1'
+
+ 
+    com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52) 41. select
+        member0_.memberId as memberid1_2_,
+        member0_.createDateTime as createda2_2_,
+        member0_.createUserKey as createus3_2_,
+        member0_.updateDateTime as updateda4_2_,
+        member0_.updateUserKey as updateus5_2_,
+        member0_.businessKey as business6_2_,
+        member0_.name as name7_2_,
+        member0_.password as password8_2_,
+        member0_.username as username9_2_ 
+    from
+        Member member0_ 
+    where
+        member0_.username='llwodnjs@naver.com1' 
+2023-02-17 14:50:27.313 http-nio-35063-exec-3 [] INFO  jdbc.resultsettable - 
+|---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------|
+|memberid |createdatetime |createuserkey |updatedatetime |updateuserkey |businesskey |name |password |username |
+|---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------|
+|---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------|
+
+ 
+    |---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------| |memberid |createdatetime |createuserkey |updatedatetime |updateuserkey |businesskey |name |password |username | |---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------| |---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------| 
+2023-02-17 14:53:26.428 http-nio-35063-exec-8 [] DEBUG jdbc.sqlonly -  com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+41. select member0_.memberId as memberid1_2_, member0_.createDateTime as createda2_2_, member0_.createUserKey as createus3_2_, member0_.updateDateTime as updateda4_2_, member0_.updateUserKey as updateus5_2_, member0_.businessKey as business6_2_, member0_.name as name7_2_, member0_.password as password8_2_, member0_.username as username9_2_ from Member member0_ where member0_.username='llwodnjs@naver.com12'
+
+ 
+    com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52) 41. select
+        member0_.memberId as memberid1_2_,
+        member0_.createDateTime as createda2_2_,
+        member0_.createUserKey as createus3_2_,
+        member0_.updateDateTime as updateda4_2_,
+        member0_.updateUserKey as updateus5_2_,
+        member0_.businessKey as business6_2_,
+        member0_.name as name7_2_,
+        member0_.password as password8_2_,
+        member0_.username as username9_2_ 
+    from
+        Member member0_ 
+    where
+        member0_.username='llwodnjs@naver.com12' 
+2023-02-17 14:53:26.462 http-nio-35063-exec-8 [] INFO  jdbc.resultsettable - 
+|---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------|
+|memberid |createdatetime |createuserkey |updatedatetime |updateuserkey |businesskey |name |password |username |
+|---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------|
+|---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------|
+
+ 
+    |---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------| |memberid |createdatetime |createuserkey |updatedatetime |updateuserkey |businesskey |name |password |username | |---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------| |---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------| 
+2023-02-17 14:59:19.826 restartedMain [] DEBUG jdbc.sqlonly -  com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+1. select * from `t1`.`member` where 1=0
+
+ 
+    com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52) 1. select
+        * 
+    from
+        `t1`.`member` 
+    where
+        1=0 
+2023-02-17 14:59:19.862 restartedMain [] INFO  jdbc.resultsettable - 
+|---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------|
+|memberid |createdatetime |createuserkey |updatedatetime |updateuserkey |businesskey |name |password |username |
+|---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------|
+|---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------|
+
+ 
+    |---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------| |memberid |createdatetime |createuserkey |updatedatetime |updateuserkey |businesskey |name |password |username | |---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------| |---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------| 
+2023-02-17 14:59:39.529 http-nio-35063-exec-3 [] DEBUG jdbc.sqlonly -  com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+1. select member0_.memberId as memberid1_2_, member0_.createDateTime as createda2_2_, member0_.createUserKey as createus3_2_, member0_.updateDateTime as updateda4_2_, member0_.updateUserKey as updateus5_2_, member0_.businessKey as business6_2_, member0_.name as name7_2_, member0_.password as password8_2_, member0_.username as username9_2_ from Member member0_ where member0_.username='llwodnjs@naver.com12'
+
+ 
+    com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52) 1. select
+        member0_.memberId as memberid1_2_,
+        member0_.createDateTime as createda2_2_,
+        member0_.createUserKey as createus3_2_,
+        member0_.updateDateTime as updateda4_2_,
+        member0_.updateUserKey as updateus5_2_,
+        member0_.businessKey as business6_2_,
+        member0_.name as name7_2_,
+        member0_.password as password8_2_,
+        member0_.username as username9_2_ 
+    from
+        Member member0_ 
+    where
+        member0_.username='llwodnjs@naver.com12' 
+2023-02-17 14:59:39.579 http-nio-35063-exec-3 [] INFO  jdbc.resultsettable - 
+|---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------|
+|memberid |createdatetime |createuserkey |updatedatetime |updateuserkey |businesskey |name |password |username |
+|---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------|
+|---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------|
+
+ 
+    |---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------| |memberid |createdatetime |createuserkey |updatedatetime |updateuserkey |businesskey |name |password |username | |---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------| |---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------| 
+2023-02-17 14:59:48.281 http-nio-35063-exec-2 [] DEBUG jdbc.sqlonly -  com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+1. select member0_.memberId as memberid1_2_, member0_.createDateTime as createda2_2_, member0_.createUserKey as createus3_2_, member0_.updateDateTime as updateda4_2_, member0_.updateUserKey as updateus5_2_, member0_.businessKey as business6_2_, member0_.name as name7_2_, member0_.password as password8_2_, member0_.username as username9_2_ from Member member0_ where member0_.username='llwodnjs@naver.com'
+
+ 
+    com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52) 1. select
+        member0_.memberId as memberid1_2_,
+        member0_.createDateTime as createda2_2_,
+        member0_.createUserKey as createus3_2_,
+        member0_.updateDateTime as updateda4_2_,
+        member0_.updateUserKey as updateus5_2_,
+        member0_.businessKey as business6_2_,
+        member0_.name as name7_2_,
+        member0_.password as password8_2_,
+        member0_.username as username9_2_ 
+    from
+        Member member0_ 
+    where
+        member0_.username='llwodnjs@naver.com' 
+2023-02-17 14:59:48.333 http-nio-35063-exec-2 [] INFO  jdbc.resultsettable - 
+|---------|------------------------|--------------|------------------------|--------------|--------------|-----|---------------------------------------------------------------------|-------------------|
+|memberid |createdatetime          |createuserkey |updatedatetime          |updateuserkey |businesskey   |name |password                                                             |username           |
+|---------|------------------------|--------------|------------------------|--------------|--------------|-----|---------------------------------------------------------------------|-------------------|
+|90       |2023-02-17 13:46:27.786 |null          |2023-02-17 13:46:27.786 |null          |MEM0060141811 |이재원  |{bcrypt}$2a$10$jXJc9vRzyigcSiw4GgMzR.IiRLIjL/DRTGLAGPucd0/kG8l4pxfA6 |llwodnjs@naver.com |
+|---------|------------------------|--------------|------------------------|--------------|--------------|-----|---------------------------------------------------------------------|-------------------|
+
+ 
+    |---------|------------------------|--------------|------------------------|--------------|--------------|-----|---------------------------------------------------------------------|-------------------| |memberid |createdatetime          |createuserkey |updatedatetime          |updateuserkey |businesskey   |name |password                                                             |username           | |---------|------------------------|--------------|------------------------|--------------|--------------|-----|---------------------------------------------------------------------|-------------------| |90       |2023-02-17 13:46:27.786 |null          |2023-02-17 13:46:27.786 |null          |MEM0060141811 |이재원  |{bcrypt}$2a$10$jXJc9vRzyigcSiw4GgMzR.IiRLIjL/DRTGLAGPucd0/kG8l4pxfA6 |llwodnjs@naver.com | |---------|------------------------|--------------|------------------------|--------------|--------------|-----|---------------------------------------------------------------------|-------------------| 
+2023-02-17 14:59:48.482 http-nio-35063-exec-2 [] DEBUG jdbc.sqlonly -  com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+1. select roles0_.member as member8_0_0_, roles0_.authorityId as authorit1_0_0_, roles0_.authorityId as authorit1_0_1_, roles0_.createDateTime as createda2_0_1_, roles0_.createUserKey as createus3_0_1_, roles0_.updateDateTime as updateda4_0_1_, roles0_.updateUserKey as updateus5_0_1_, roles0_.businessKey as business6_0_1_, roles0_.member as member8_0_1_, roles0_.name as name7_0_1_ from Authority roles0_ where roles0_.member=90
+
+ 
+    com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52) 1. select
+        roles0_.member as member8_0_0_,
+        roles0_.authorityId as authorit1_0_0_,
+        roles0_.authorityId as authorit1_0_1_,
+        roles0_.createDateTime as createda2_0_1_,
+        roles0_.createUserKey as createus3_0_1_,
+        roles0_.updateDateTime as updateda4_0_1_,
+        roles0_.updateUserKey as updateus5_0_1_,
+        roles0_.businessKey as business6_0_1_,
+        roles0_.member as member8_0_1_,
+        roles0_.name as name7_0_1_ 
+    from
+        Authority roles0_ 
+    where
+        roles0_.member=90 
+2023-02-17 14:59:48.532 http-nio-35063-exec-2 [] INFO  jdbc.resultsettable - 
+|-------|------------|------------|------------------------|--------------|------------------------|--------------|--------------|-------|-----|
+|member |authorityid |authorityid |createdatetime          |createuserkey |updatedatetime          |updateuserkey |businesskey   |member |name |
+|-------|------------|------------|------------------------|--------------|------------------------|--------------|--------------|-------|-----|
+|90     |91          |91          |2023-02-17 13:46:27.808 |null          |2023-02-17 13:46:27.808 |null          |AUT0285747923 |90     |USER |
+|-------|------------|------------|------------------------|--------------|------------------------|--------------|--------------|-------|-----|
+
+ 
+    |-------|------------|------------|------------------------|--------------|------------------------|--------------|--------------|-------|-----| |member |authorityid |authorityid |createdatetime          |createuserkey |updatedatetime          |updateuserkey |businesskey   |member |name | |-------|------------|------------|------------------------|--------------|------------------------|--------------|--------------|-------|-----| |90     |91          |91          |2023-02-17 13:46:27.808 |null          |2023-02-17 13:46:27.808 |null          |AUT0285747923 |90     |USER | |-------|------------|------------|------------------------|--------------|------------------------|--------------|--------------|-------|-----| 
+2023-02-17 16:33:01.859 restartedMain [] DEBUG jdbc.sqlonly -  com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+31. select * from `t1`.`member` where 1=0
+
+ 
+    com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52) 31. select
+        * 
+    from
+        `t1`.`member` 
+    where
+        1=0 
+2023-02-17 16:33:01.893 restartedMain [] INFO  jdbc.resultsettable - 
+|---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------|
+|memberid |createdatetime |createuserkey |updatedatetime |updateuserkey |businesskey |name |password |username |
+|---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------|
+|---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------|
+
+ 
+    |---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------| |memberid |createdatetime |createuserkey |updatedatetime |updateuserkey |businesskey |name |password |username | |---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------| |---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------| 
+2023-02-17 16:33:22.778 http-nio-35063-exec-1 [] DEBUG jdbc.sqlonly -  com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+31. select member0_.memberId as memberid1_2_, member0_.createDateTime as createda2_2_, member0_.createUserKey as createus3_2_, member0_.updateDateTime as updateda4_2_, member0_.updateUserKey as updateus5_2_, member0_.businessKey as business6_2_, member0_.name as name7_2_, member0_.password as password8_2_, member0_.username as username9_2_ from Member member0_ where member0_.username='llwodnjs@naver.com'
+
+ 
+    com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52) 31. select
+        member0_.memberId as memberid1_2_,
+        member0_.createDateTime as createda2_2_,
+        member0_.createUserKey as createus3_2_,
+        member0_.updateDateTime as updateda4_2_,
+        member0_.updateUserKey as updateus5_2_,
+        member0_.businessKey as business6_2_,
+        member0_.name as name7_2_,
+        member0_.password as password8_2_,
+        member0_.username as username9_2_ 
+    from
+        Member member0_ 
+    where
+        member0_.username='llwodnjs@naver.com' 
+2023-02-17 16:33:22.845 http-nio-35063-exec-1 [] INFO  jdbc.resultsettable - 
+|---------|------------------------|--------------|------------------------|--------------|--------------|-----|---------------------------------------------------------------------|-------------------|
+|memberid |createdatetime          |createuserkey |updatedatetime          |updateuserkey |businesskey   |name |password                                                             |username           |
+|---------|------------------------|--------------|------------------------|--------------|--------------|-----|---------------------------------------------------------------------|-------------------|
+|90       |2023-02-17 13:46:27.786 |null          |2023-02-17 13:46:27.786 |null          |MEM0060141811 |이재원  |{bcrypt}$2a$10$jXJc9vRzyigcSiw4GgMzR.IiRLIjL/DRTGLAGPucd0/kG8l4pxfA6 |llwodnjs@naver.com |
+|---------|------------------------|--------------|------------------------|--------------|--------------|-----|---------------------------------------------------------------------|-------------------|
+
+ 
+    |---------|------------------------|--------------|------------------------|--------------|--------------|-----|---------------------------------------------------------------------|-------------------| |memberid |createdatetime          |createuserkey |updatedatetime          |updateuserkey |businesskey   |name |password                                                             |username           | |---------|------------------------|--------------|------------------------|--------------|--------------|-----|---------------------------------------------------------------------|-------------------| |90       |2023-02-17 13:46:27.786 |null          |2023-02-17 13:46:27.786 |null          |MEM0060141811 |이재원  |{bcrypt}$2a$10$jXJc9vRzyigcSiw4GgMzR.IiRLIjL/DRTGLAGPucd0/kG8l4pxfA6 |llwodnjs@naver.com | |---------|------------------------|--------------|------------------------|--------------|--------------|-----|---------------------------------------------------------------------|-------------------| 
+2023-02-17 16:33:22.955 http-nio-35063-exec-1 [] DEBUG jdbc.sqlonly -  com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+31. select roles0_.member as member8_0_0_, roles0_.authorityId as authorit1_0_0_, roles0_.authorityId as authorit1_0_1_, roles0_.createDateTime as createda2_0_1_, roles0_.createUserKey as createus3_0_1_, roles0_.updateDateTime as updateda4_0_1_, roles0_.updateUserKey as updateus5_0_1_, roles0_.businessKey as business6_0_1_, roles0_.member as member8_0_1_, roles0_.name as name7_0_1_ from Authority roles0_ where roles0_.member=90
+
+ 
+    com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52) 31. select
+        roles0_.member as member8_0_0_,
+        roles0_.authorityId as authorit1_0_0_,
+        roles0_.authorityId as authorit1_0_1_,
+        roles0_.createDateTime as createda2_0_1_,
+        roles0_.createUserKey as createus3_0_1_,
+        roles0_.updateDateTime as updateda4_0_1_,
+        roles0_.updateUserKey as updateus5_0_1_,
+        roles0_.businessKey as business6_0_1_,
+        roles0_.member as member8_0_1_,
+        roles0_.name as name7_0_1_ 
+    from
+        Authority roles0_ 
+    where
+        roles0_.member=90 
+2023-02-17 16:33:23.035 http-nio-35063-exec-1 [] INFO  jdbc.resultsettable - 
+|-------|------------|------------|------------------------|--------------|------------------------|--------------|--------------|-------|-----|
+|member |authorityid |authorityid |createdatetime          |createuserkey |updatedatetime          |updateuserkey |businesskey   |member |name |
+|-------|------------|------------|------------------------|--------------|------------------------|--------------|--------------|-------|-----|
+|90     |91          |91          |2023-02-17 13:46:27.808 |null          |2023-02-17 13:46:27.808 |null          |AUT0285747923 |90     |USER |
+|-------|------------|------------|------------------------|--------------|------------------------|--------------|--------------|-------|-----|
+
+ 
+    |-------|------------|------------|------------------------|--------------|------------------------|--------------|--------------|-------|-----| |member |authorityid |authorityid |createdatetime          |createuserkey |updatedatetime          |updateuserkey |businesskey   |member |name | |-------|------------|------------|------------------------|--------------|------------------------|--------------|--------------|-------|-----| |90     |91          |91          |2023-02-17 13:46:27.808 |null          |2023-02-17 13:46:27.808 |null          |AUT0285747923 |90     |USER | |-------|------------|------------|------------------------|--------------|------------------------|--------------|--------------|-------|-----| 
+2023-02-17 16:34:19.267 restartedMain [] DEBUG jdbc.sqlonly -  com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+41. select * from `t1`.`member` where 1=0
+
+ 
+    com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52) 41. select
+        * 
+    from
+        `t1`.`member` 
+    where
+        1=0 
+2023-02-17 16:34:19.319 restartedMain [] INFO  jdbc.resultsettable - 
+|---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------|
+|memberid |createdatetime |createuserkey |updatedatetime |updateuserkey |businesskey |name |password |username |
+|---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------|
+|---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------|
+
+ 
+    |---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------| |memberid |createdatetime |createuserkey |updatedatetime |updateuserkey |businesskey |name |password |username | |---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------| |---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------| 
+2023-02-17 16:34:27.422 http-nio-35063-exec-1 [] DEBUG jdbc.sqlonly -  com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+41. select member0_.memberId as memberid1_2_, member0_.createDateTime as createda2_2_, member0_.createUserKey as createus3_2_, member0_.updateDateTime as updateda4_2_, member0_.updateUserKey as updateus5_2_, member0_.businessKey as business6_2_, member0_.name as name7_2_, member0_.password as password8_2_, member0_.username as username9_2_ from Member member0_ where member0_.username='llwodnjs@naver.com'
+
+ 
+    com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52) 41. select
+        member0_.memberId as memberid1_2_,
+        member0_.createDateTime as createda2_2_,
+        member0_.createUserKey as createus3_2_,
+        member0_.updateDateTime as updateda4_2_,
+        member0_.updateUserKey as updateus5_2_,
+        member0_.businessKey as business6_2_,
+        member0_.name as name7_2_,
+        member0_.password as password8_2_,
+        member0_.username as username9_2_ 
+    from
+        Member member0_ 
+    where
+        member0_.username='llwodnjs@naver.com' 
+2023-02-17 16:34:27.476 http-nio-35063-exec-1 [] INFO  jdbc.resultsettable - 
+|---------|------------------------|--------------|------------------------|--------------|--------------|-----|---------------------------------------------------------------------|-------------------|
+|memberid |createdatetime          |createuserkey |updatedatetime          |updateuserkey |businesskey   |name |password                                                             |username           |
+|---------|------------------------|--------------|------------------------|--------------|--------------|-----|---------------------------------------------------------------------|-------------------|
+|90       |2023-02-17 13:46:27.786 |null          |2023-02-17 13:46:27.786 |null          |MEM0060141811 |이재원  |{bcrypt}$2a$10$jXJc9vRzyigcSiw4GgMzR.IiRLIjL/DRTGLAGPucd0/kG8l4pxfA6 |llwodnjs@naver.com |
+|---------|------------------------|--------------|------------------------|--------------|--------------|-----|---------------------------------------------------------------------|-------------------|
+
+ 
+    |---------|------------------------|--------------|------------------------|--------------|--------------|-----|---------------------------------------------------------------------|-------------------| |memberid |createdatetime          |createuserkey |updatedatetime          |updateuserkey |businesskey   |name |password                                                             |username           | |---------|------------------------|--------------|------------------------|--------------|--------------|-----|---------------------------------------------------------------------|-------------------| |90       |2023-02-17 13:46:27.786 |null          |2023-02-17 13:46:27.786 |null          |MEM0060141811 |이재원  |{bcrypt}$2a$10$jXJc9vRzyigcSiw4GgMzR.IiRLIjL/DRTGLAGPucd0/kG8l4pxfA6 |llwodnjs@naver.com | |---------|------------------------|--------------|------------------------|--------------|--------------|-----|---------------------------------------------------------------------|-------------------| 
+2023-02-17 16:34:27.594 http-nio-35063-exec-1 [] DEBUG jdbc.sqlonly -  com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+41. select roles0_.member as member8_0_0_, roles0_.authorityId as authorit1_0_0_, roles0_.authorityId as authorit1_0_1_, roles0_.createDateTime as createda2_0_1_, roles0_.createUserKey as createus3_0_1_, roles0_.updateDateTime as updateda4_0_1_, roles0_.updateUserKey as updateus5_0_1_, roles0_.businessKey as business6_0_1_, roles0_.member as member8_0_1_, roles0_.name as name7_0_1_ from Authority roles0_ where roles0_.member=90
+
+ 
+    com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52) 41. select
+        roles0_.member as member8_0_0_,
+        roles0_.authorityId as authorit1_0_0_,
+        roles0_.authorityId as authorit1_0_1_,
+        roles0_.createDateTime as createda2_0_1_,
+        roles0_.createUserKey as createus3_0_1_,
+        roles0_.updateDateTime as updateda4_0_1_,
+        roles0_.updateUserKey as updateus5_0_1_,
+        roles0_.businessKey as business6_0_1_,
+        roles0_.member as member8_0_1_,
+        roles0_.name as name7_0_1_ 
+    from
+        Authority roles0_ 
+    where
+        roles0_.member=90 
+2023-02-17 16:34:27.641 http-nio-35063-exec-1 [] INFO  jdbc.resultsettable - 
+|-------|------------|------------|------------------------|--------------|------------------------|--------------|--------------|-------|-----|
+|member |authorityid |authorityid |createdatetime          |createuserkey |updatedatetime          |updateuserkey |businesskey   |member |name |
+|-------|------------|------------|------------------------|--------------|------------------------|--------------|--------------|-------|-----|
+|90     |91          |91          |2023-02-17 13:46:27.808 |null          |2023-02-17 13:46:27.808 |null          |AUT0285747923 |90     |USER |
+|-------|------------|------------|------------------------|--------------|------------------------|--------------|--------------|-------|-----|
+
+ 
+    |-------|------------|------------|------------------------|--------------|------------------------|--------------|--------------|-------|-----| |member |authorityid |authorityid |createdatetime          |createuserkey |updatedatetime          |updateuserkey |businesskey   |member |name | |-------|------------|------------|------------------------|--------------|------------------------|--------------|--------------|-------|-----| |90     |91          |91          |2023-02-17 13:46:27.808 |null          |2023-02-17 13:46:27.808 |null          |AUT0285747923 |90     |USER | |-------|------------|------------|------------------------|--------------|------------------------|--------------|--------------|-------|-----| 
+2023-02-17 16:36:58.083 http-nio-35063-exec-3 [] DEBUG jdbc.sqlonly -  com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+41. select member0_.memberId as memberid1_2_, member0_.createDateTime as createda2_2_, member0_.createUserKey as createus3_2_, member0_.updateDateTime as updateda4_2_, member0_.updateUserKey as updateus5_2_, member0_.businessKey as business6_2_, member0_.name as name7_2_, member0_.password as password8_2_, member0_.username as username9_2_ from Member member0_ where member0_.username='llwodnjs@naver.com'
+
+ 
+    com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52) 41. select
+        member0_.memberId as memberid1_2_,
+        member0_.createDateTime as createda2_2_,
+        member0_.createUserKey as createus3_2_,
+        member0_.updateDateTime as updateda4_2_,
+        member0_.updateUserKey as updateus5_2_,
+        member0_.businessKey as business6_2_,
+        member0_.name as name7_2_,
+        member0_.password as password8_2_,
+        member0_.username as username9_2_ 
+    from
+        Member member0_ 
+    where
+        member0_.username='llwodnjs@naver.com' 
+2023-02-17 16:36:58.122 http-nio-35063-exec-3 [] INFO  jdbc.resultsettable - 
+|---------|------------------------|--------------|------------------------|--------------|--------------|-----|---------------------------------------------------------------------|-------------------|
+|memberid |createdatetime          |createuserkey |updatedatetime          |updateuserkey |businesskey   |name |password                                                             |username           |
+|---------|------------------------|--------------|------------------------|--------------|--------------|-----|---------------------------------------------------------------------|-------------------|
+|90       |2023-02-17 13:46:27.786 |null          |2023-02-17 13:46:27.786 |null          |MEM0060141811 |이재원  |{bcrypt}$2a$10$jXJc9vRzyigcSiw4GgMzR.IiRLIjL/DRTGLAGPucd0/kG8l4pxfA6 |llwodnjs@naver.com |
+|---------|------------------------|--------------|------------------------|--------------|--------------|-----|---------------------------------------------------------------------|-------------------|
+
+ 
+    |---------|------------------------|--------------|------------------------|--------------|--------------|-----|---------------------------------------------------------------------|-------------------| |memberid |createdatetime          |createuserkey |updatedatetime          |updateuserkey |businesskey   |name |password                                                             |username           | |---------|------------------------|--------------|------------------------|--------------|--------------|-----|---------------------------------------------------------------------|-------------------| |90       |2023-02-17 13:46:27.786 |null          |2023-02-17 13:46:27.786 |null          |MEM0060141811 |이재원  |{bcrypt}$2a$10$jXJc9vRzyigcSiw4GgMzR.IiRLIjL/DRTGLAGPucd0/kG8l4pxfA6 |llwodnjs@naver.com | |---------|------------------------|--------------|------------------------|--------------|--------------|-----|---------------------------------------------------------------------|-------------------| 
+2023-02-17 16:36:58.221 http-nio-35063-exec-3 [] DEBUG jdbc.sqlonly -  com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+41. select roles0_.member as member8_0_0_, roles0_.authorityId as authorit1_0_0_, roles0_.authorityId as authorit1_0_1_, roles0_.createDateTime as createda2_0_1_, roles0_.createUserKey as createus3_0_1_, roles0_.updateDateTime as updateda4_0_1_, roles0_.updateUserKey as updateus5_0_1_, roles0_.businessKey as business6_0_1_, roles0_.member as member8_0_1_, roles0_.name as name7_0_1_ from Authority roles0_ where roles0_.member=90
+
+ 
+    com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52) 41. select
+        roles0_.member as member8_0_0_,
+        roles0_.authorityId as authorit1_0_0_,
+        roles0_.authorityId as authorit1_0_1_,
+        roles0_.createDateTime as createda2_0_1_,
+        roles0_.createUserKey as createus3_0_1_,
+        roles0_.updateDateTime as updateda4_0_1_,
+        roles0_.updateUserKey as updateus5_0_1_,
+        roles0_.businessKey as business6_0_1_,
+        roles0_.member as member8_0_1_,
+        roles0_.name as name7_0_1_ 
+    from
+        Authority roles0_ 
+    where
+        roles0_.member=90 
+2023-02-17 16:36:58.245 http-nio-35063-exec-3 [] INFO  jdbc.resultsettable - 
+|-------|------------|------------|------------------------|--------------|------------------------|--------------|--------------|-------|-----|
+|member |authorityid |authorityid |createdatetime          |createuserkey |updatedatetime          |updateuserkey |businesskey   |member |name |
+|-------|------------|------------|------------------------|--------------|------------------------|--------------|--------------|-------|-----|
+|90     |91          |91          |2023-02-17 13:46:27.808 |null          |2023-02-17 13:46:27.808 |null          |AUT0285747923 |90     |USER |
+|-------|------------|------------|------------------------|--------------|------------------------|--------------|--------------|-------|-----|
+
+ 
+    |-------|------------|------------|------------------------|--------------|------------------------|--------------|--------------|-------|-----| |member |authorityid |authorityid |createdatetime          |createuserkey |updatedatetime          |updateuserkey |businesskey   |member |name | |-------|------------|------------|------------------------|--------------|------------------------|--------------|--------------|-------|-----| |90     |91          |91          |2023-02-17 13:46:27.808 |null          |2023-02-17 13:46:27.808 |null          |AUT0285747923 |90     |USER | |-------|------------|------------|------------------------|--------------|------------------------|--------------|--------------|-------|-----| 
+2023-02-17 16:37:43.156 http-nio-35063-exec-4 [] DEBUG jdbc.sqlonly -  com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+41. select member0_.memberId as memberid1_2_, member0_.createDateTime as createda2_2_, member0_.createUserKey as createus3_2_, member0_.updateDateTime as updateda4_2_, member0_.updateUserKey as updateus5_2_, member0_.businessKey as business6_2_, member0_.name as name7_2_, member0_.password as password8_2_, member0_.username as username9_2_ from Member member0_ where member0_.username='llwodnjs@naver.com'
+
+ 
+    com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52) 41. select
+        member0_.memberId as memberid1_2_,
+        member0_.createDateTime as createda2_2_,
+        member0_.createUserKey as createus3_2_,
+        member0_.updateDateTime as updateda4_2_,
+        member0_.updateUserKey as updateus5_2_,
+        member0_.businessKey as business6_2_,
+        member0_.name as name7_2_,
+        member0_.password as password8_2_,
+        member0_.username as username9_2_ 
+    from
+        Member member0_ 
+    where
+        member0_.username='llwodnjs@naver.com' 
+2023-02-17 16:37:43.208 http-nio-35063-exec-4 [] INFO  jdbc.resultsettable - 
+|---------|------------------------|--------------|------------------------|--------------|--------------|-----|---------------------------------------------------------------------|-------------------|
+|memberid |createdatetime          |createuserkey |updatedatetime          |updateuserkey |businesskey   |name |password                                                             |username           |
+|---------|------------------------|--------------|------------------------|--------------|--------------|-----|---------------------------------------------------------------------|-------------------|
+|90       |2023-02-17 13:46:27.786 |null          |2023-02-17 13:46:27.786 |null          |MEM0060141811 |이재원  |{bcrypt}$2a$10$jXJc9vRzyigcSiw4GgMzR.IiRLIjL/DRTGLAGPucd0/kG8l4pxfA6 |llwodnjs@naver.com |
+|---------|------------------------|--------------|------------------------|--------------|--------------|-----|---------------------------------------------------------------------|-------------------|
+
+ 
+    |---------|------------------------|--------------|------------------------|--------------|--------------|-----|---------------------------------------------------------------------|-------------------| |memberid |createdatetime          |createuserkey |updatedatetime          |updateuserkey |businesskey   |name |password                                                             |username           | |---------|------------------------|--------------|------------------------|--------------|--------------|-----|---------------------------------------------------------------------|-------------------| |90       |2023-02-17 13:46:27.786 |null          |2023-02-17 13:46:27.786 |null          |MEM0060141811 |이재원  |{bcrypt}$2a$10$jXJc9vRzyigcSiw4GgMzR.IiRLIjL/DRTGLAGPucd0/kG8l4pxfA6 |llwodnjs@naver.com | |---------|------------------------|--------------|------------------------|--------------|--------------|-----|---------------------------------------------------------------------|-------------------| 
+2023-02-17 16:37:43.335 http-nio-35063-exec-4 [] DEBUG jdbc.sqlonly -  com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+41. select roles0_.member as member8_0_0_, roles0_.authorityId as authorit1_0_0_, roles0_.authorityId as authorit1_0_1_, roles0_.createDateTime as createda2_0_1_, roles0_.createUserKey as createus3_0_1_, roles0_.updateDateTime as updateda4_0_1_, roles0_.updateUserKey as updateus5_0_1_, roles0_.businessKey as business6_0_1_, roles0_.member as member8_0_1_, roles0_.name as name7_0_1_ from Authority roles0_ where roles0_.member=90
+
+ 
+    com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52) 41. select
+        roles0_.member as member8_0_0_,
+        roles0_.authorityId as authorit1_0_0_,
+        roles0_.authorityId as authorit1_0_1_,
+        roles0_.createDateTime as createda2_0_1_,
+        roles0_.createUserKey as createus3_0_1_,
+        roles0_.updateDateTime as updateda4_0_1_,
+        roles0_.updateUserKey as updateus5_0_1_,
+        roles0_.businessKey as business6_0_1_,
+        roles0_.member as member8_0_1_,
+        roles0_.name as name7_0_1_ 
+    from
+        Authority roles0_ 
+    where
+        roles0_.member=90 
+2023-02-17 16:37:43.382 http-nio-35063-exec-4 [] INFO  jdbc.resultsettable - 
+|-------|------------|------------|------------------------|--------------|------------------------|--------------|--------------|-------|-----|
+|member |authorityid |authorityid |createdatetime          |createuserkey |updatedatetime          |updateuserkey |businesskey   |member |name |
+|-------|------------|------------|------------------------|--------------|------------------------|--------------|--------------|-------|-----|
+|90     |91          |91          |2023-02-17 13:46:27.808 |null          |2023-02-17 13:46:27.808 |null          |AUT0285747923 |90     |USER |
+|-------|------------|------------|------------------------|--------------|------------------------|--------------|--------------|-------|-----|
+
+ 
+    |-------|------------|------------|------------------------|--------------|------------------------|--------------|--------------|-------|-----| |member |authorityid |authorityid |createdatetime          |createuserkey |updatedatetime          |updateuserkey |businesskey   |member |name | |-------|------------|------------|------------------------|--------------|------------------------|--------------|--------------|-------|-----| |90     |91          |91          |2023-02-17 13:46:27.808 |null          |2023-02-17 13:46:27.808 |null          |AUT0285747923 |90     |USER | |-------|------------|------------|------------------------|--------------|------------------------|--------------|--------------|-------|-----| 
+2023-02-17 16:39:27.502 http-nio-35063-exec-6 [] DEBUG jdbc.sqlonly -  com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+41. select member0_.memberId as memberid1_2_, member0_.createDateTime as createda2_2_, member0_.createUserKey as createus3_2_, member0_.updateDateTime as updateda4_2_, member0_.updateUserKey as updateus5_2_, member0_.businessKey as business6_2_, member0_.name as name7_2_, member0_.password as password8_2_, member0_.username as username9_2_ from Member member0_ where member0_.username='llwodnjs@naver.com'
+
+ 
+    com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52) 41. select
+        member0_.memberId as memberid1_2_,
+        member0_.createDateTime as createda2_2_,
+        member0_.createUserKey as createus3_2_,
+        member0_.updateDateTime as updateda4_2_,
+        member0_.updateUserKey as updateus5_2_,
+        member0_.businessKey as business6_2_,
+        member0_.name as name7_2_,
+        member0_.password as password8_2_,
+        member0_.username as username9_2_ 
+    from
+        Member member0_ 
+    where
+        member0_.username='llwodnjs@naver.com' 
+2023-02-17 16:39:27.559 http-nio-35063-exec-6 [] INFO  jdbc.resultsettable - 
+|---------|------------------------|--------------|------------------------|--------------|--------------|-----|---------------------------------------------------------------------|-------------------|
+|memberid |createdatetime          |createuserkey |updatedatetime          |updateuserkey |businesskey   |name |password                                                             |username           |
+|---------|------------------------|--------------|------------------------|--------------|--------------|-----|---------------------------------------------------------------------|-------------------|
+|90       |2023-02-17 13:46:27.786 |null          |2023-02-17 13:46:27.786 |null          |MEM0060141811 |이재원  |{bcrypt}$2a$10$jXJc9vRzyigcSiw4GgMzR.IiRLIjL/DRTGLAGPucd0/kG8l4pxfA6 |llwodnjs@naver.com |
+|---------|------------------------|--------------|------------------------|--------------|--------------|-----|---------------------------------------------------------------------|-------------------|
+
+ 
+    |---------|------------------------|--------------|------------------------|--------------|--------------|-----|---------------------------------------------------------------------|-------------------| |memberid |createdatetime          |createuserkey |updatedatetime          |updateuserkey |businesskey   |name |password                                                             |username           | |---------|------------------------|--------------|------------------------|--------------|--------------|-----|---------------------------------------------------------------------|-------------------| |90       |2023-02-17 13:46:27.786 |null          |2023-02-17 13:46:27.786 |null          |MEM0060141811 |이재원  |{bcrypt}$2a$10$jXJc9vRzyigcSiw4GgMzR.IiRLIjL/DRTGLAGPucd0/kG8l4pxfA6 |llwodnjs@naver.com | |---------|------------------------|--------------|------------------------|--------------|--------------|-----|---------------------------------------------------------------------|-------------------| 
+2023-02-17 16:39:27.684 http-nio-35063-exec-6 [] DEBUG jdbc.sqlonly -  com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+41. select roles0_.member as member8_0_0_, roles0_.authorityId as authorit1_0_0_, roles0_.authorityId as authorit1_0_1_, roles0_.createDateTime as createda2_0_1_, roles0_.createUserKey as createus3_0_1_, roles0_.updateDateTime as updateda4_0_1_, roles0_.updateUserKey as updateus5_0_1_, roles0_.businessKey as business6_0_1_, roles0_.member as member8_0_1_, roles0_.name as name7_0_1_ from Authority roles0_ where roles0_.member=90
+
+ 
+    com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52) 41. select
+        roles0_.member as member8_0_0_,
+        roles0_.authorityId as authorit1_0_0_,
+        roles0_.authorityId as authorit1_0_1_,
+        roles0_.createDateTime as createda2_0_1_,
+        roles0_.createUserKey as createus3_0_1_,
+        roles0_.updateDateTime as updateda4_0_1_,
+        roles0_.updateUserKey as updateus5_0_1_,
+        roles0_.businessKey as business6_0_1_,
+        roles0_.member as member8_0_1_,
+        roles0_.name as name7_0_1_ 
+    from
+        Authority roles0_ 
+    where
+        roles0_.member=90 
+2023-02-17 16:39:27.723 http-nio-35063-exec-6 [] INFO  jdbc.resultsettable - 
+|-------|------------|------------|------------------------|--------------|------------------------|--------------|--------------|-------|-----|
+|member |authorityid |authorityid |createdatetime          |createuserkey |updatedatetime          |updateuserkey |businesskey   |member |name |
+|-------|------------|------------|------------------------|--------------|------------------------|--------------|--------------|-------|-----|
+|90     |91          |91          |2023-02-17 13:46:27.808 |null          |2023-02-17 13:46:27.808 |null          |AUT0285747923 |90     |USER |
+|-------|------------|------------|------------------------|--------------|------------------------|--------------|--------------|-------|-----|
+
+ 
+    |-------|------------|------------|------------------------|--------------|------------------------|--------------|--------------|-------|-----| |member |authorityid |authorityid |createdatetime          |createuserkey |updatedatetime          |updateuserkey |businesskey   |member |name | |-------|------------|------------|------------------------|--------------|------------------------|--------------|--------------|-------|-----| |90     |91          |91          |2023-02-17 13:46:27.808 |null          |2023-02-17 13:46:27.808 |null          |AUT0285747923 |90     |USER | |-------|------------|------------|------------------------|--------------|------------------------|--------------|--------------|-------|-----| 
+2023-02-17 16:58:41.471 http-nio-35063-exec-8 [] DEBUG jdbc.sqlonly -  com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+41. select member0_.memberId as memberid1_2_, member0_.createDateTime as createda2_2_, member0_.createUserKey as createus3_2_, member0_.updateDateTime as updateda4_2_, member0_.updateUserKey as updateus5_2_, member0_.businessKey as business6_2_, member0_.name as name7_2_, member0_.password as password8_2_, member0_.username as username9_2_ from Member member0_ where member0_.username='llwodnjs@naver.com'
+
+ 
+    com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52) 41. select
+        member0_.memberId as memberid1_2_,
+        member0_.createDateTime as createda2_2_,
+        member0_.createUserKey as createus3_2_,
+        member0_.updateDateTime as updateda4_2_,
+        member0_.updateUserKey as updateus5_2_,
+        member0_.businessKey as business6_2_,
+        member0_.name as name7_2_,
+        member0_.password as password8_2_,
+        member0_.username as username9_2_ 
+    from
+        Member member0_ 
+    where
+        member0_.username='llwodnjs@naver.com' 
+2023-02-17 16:58:41.520 http-nio-35063-exec-8 [] INFO  jdbc.resultsettable - 
+|---------|------------------------|--------------|------------------------|--------------|--------------|-----|---------------------------------------------------------------------|-------------------|
+|memberid |createdatetime          |createuserkey |updatedatetime          |updateuserkey |businesskey   |name |password                                                             |username           |
+|---------|------------------------|--------------|------------------------|--------------|--------------|-----|---------------------------------------------------------------------|-------------------|
+|90       |2023-02-17 13:46:27.786 |null          |2023-02-17 13:46:27.786 |null          |MEM0060141811 |이재원  |{bcrypt}$2a$10$jXJc9vRzyigcSiw4GgMzR.IiRLIjL/DRTGLAGPucd0/kG8l4pxfA6 |llwodnjs@naver.com |
+|---------|------------------------|--------------|------------------------|--------------|--------------|-----|---------------------------------------------------------------------|-------------------|
+
+ 
+    |---------|------------------------|--------------|------------------------|--------------|--------------|-----|---------------------------------------------------------------------|-------------------| |memberid |createdatetime          |createuserkey |updatedatetime          |updateuserkey |businesskey   |name |password                                                             |username           | |---------|------------------------|--------------|------------------------|--------------|--------------|-----|---------------------------------------------------------------------|-------------------| |90       |2023-02-17 13:46:27.786 |null          |2023-02-17 13:46:27.786 |null          |MEM0060141811 |이재원  |{bcrypt}$2a$10$jXJc9vRzyigcSiw4GgMzR.IiRLIjL/DRTGLAGPucd0/kG8l4pxfA6 |llwodnjs@naver.com | |---------|------------------------|--------------|------------------------|--------------|--------------|-----|---------------------------------------------------------------------|-------------------| 
+2023-02-17 16:58:47.063 http-nio-35063-exec-10 [] DEBUG jdbc.sqlonly -  com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+41. select member0_.memberId as memberid1_2_, member0_.createDateTime as createda2_2_, member0_.createUserKey as createus3_2_, member0_.updateDateTime as updateda4_2_, member0_.updateUserKey as updateus5_2_, member0_.businessKey as business6_2_, member0_.name as name7_2_, member0_.password as password8_2_, member0_.username as username9_2_ from Member member0_ where member0_.username='llwodnjs@naver.com'
+
+ 
+    com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52) 41. select
+        member0_.memberId as memberid1_2_,
+        member0_.createDateTime as createda2_2_,
+        member0_.createUserKey as createus3_2_,
+        member0_.updateDateTime as updateda4_2_,
+        member0_.updateUserKey as updateus5_2_,
+        member0_.businessKey as business6_2_,
+        member0_.name as name7_2_,
+        member0_.password as password8_2_,
+        member0_.username as username9_2_ 
+    from
+        Member member0_ 
+    where
+        member0_.username='llwodnjs@naver.com' 
+2023-02-17 16:58:47.113 http-nio-35063-exec-10 [] INFO  jdbc.resultsettable - 
+|---------|------------------------|--------------|------------------------|--------------|--------------|-----|---------------------------------------------------------------------|-------------------|
+|memberid |createdatetime          |createuserkey |updatedatetime          |updateuserkey |businesskey   |name |password                                                             |username           |
+|---------|------------------------|--------------|------------------------|--------------|--------------|-----|---------------------------------------------------------------------|-------------------|
+|90       |2023-02-17 13:46:27.786 |null          |2023-02-17 13:46:27.786 |null          |MEM0060141811 |이재원  |{bcrypt}$2a$10$jXJc9vRzyigcSiw4GgMzR.IiRLIjL/DRTGLAGPucd0/kG8l4pxfA6 |llwodnjs@naver.com |
+|---------|------------------------|--------------|------------------------|--------------|--------------|-----|---------------------------------------------------------------------|-------------------|
+
+ 
+    |---------|------------------------|--------------|------------------------|--------------|--------------|-----|---------------------------------------------------------------------|-------------------| |memberid |createdatetime          |createuserkey |updatedatetime          |updateuserkey |businesskey   |name |password                                                             |username           | |---------|------------------------|--------------|------------------------|--------------|--------------|-----|---------------------------------------------------------------------|-------------------| |90       |2023-02-17 13:46:27.786 |null          |2023-02-17 13:46:27.786 |null          |MEM0060141811 |이재원  |{bcrypt}$2a$10$jXJc9vRzyigcSiw4GgMzR.IiRLIjL/DRTGLAGPucd0/kG8l4pxfA6 |llwodnjs@naver.com | |---------|------------------------|--------------|------------------------|--------------|--------------|-----|---------------------------------------------------------------------|-------------------| 
+2023-02-17 16:58:47.209 http-nio-35063-exec-10 [] DEBUG jdbc.sqlonly -  com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+41. select roles0_.member as member8_0_0_, roles0_.authorityId as authorit1_0_0_, roles0_.authorityId as authorit1_0_1_, roles0_.createDateTime as createda2_0_1_, roles0_.createUserKey as createus3_0_1_, roles0_.updateDateTime as updateda4_0_1_, roles0_.updateUserKey as updateus5_0_1_, roles0_.businessKey as business6_0_1_, roles0_.member as member8_0_1_, roles0_.name as name7_0_1_ from Authority roles0_ where roles0_.member=90
+
+ 
+    com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52) 41. select
+        roles0_.member as member8_0_0_,
+        roles0_.authorityId as authorit1_0_0_,
+        roles0_.authorityId as authorit1_0_1_,
+        roles0_.createDateTime as createda2_0_1_,
+        roles0_.createUserKey as createus3_0_1_,
+        roles0_.updateDateTime as updateda4_0_1_,
+        roles0_.updateUserKey as updateus5_0_1_,
+        roles0_.businessKey as business6_0_1_,
+        roles0_.member as member8_0_1_,
+        roles0_.name as name7_0_1_ 
+    from
+        Authority roles0_ 
+    where
+        roles0_.member=90 
+2023-02-17 16:58:47.262 http-nio-35063-exec-10 [] INFO  jdbc.resultsettable - 
+|-------|------------|------------|------------------------|--------------|------------------------|--------------|--------------|-------|-----|
+|member |authorityid |authorityid |createdatetime          |createuserkey |updatedatetime          |updateuserkey |businesskey   |member |name |
+|-------|------------|------------|------------------------|--------------|------------------------|--------------|--------------|-------|-----|
+|90     |91          |91          |2023-02-17 13:46:27.808 |null          |2023-02-17 13:46:27.808 |null          |AUT0285747923 |90     |USER |
+|-------|------------|------------|------------------------|--------------|------------------------|--------------|--------------|-------|-----|
+
+ 
+    |-------|------------|------------|------------------------|--------------|------------------------|--------------|--------------|-------|-----| |member |authorityid |authorityid |createdatetime          |createuserkey |updatedatetime          |updateuserkey |businesskey   |member |name | |-------|------------|------------|------------------------|--------------|------------------------|--------------|--------------|-------|-----| |90     |91          |91          |2023-02-17 13:46:27.808 |null          |2023-02-17 13:46:27.808 |null          |AUT0285747923 |90     |USER | |-------|------------|------------|------------------------|--------------|------------------------|--------------|--------------|-------|-----| 
+2023-02-17 17:06:12.031 restartedMain [] DEBUG jdbc.sqlonly -  com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+61. select * from `t1`.`member` where 1=0
+
+ 
+    com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52) 61. select
+        * 
+    from
+        `t1`.`member` 
+    where
+        1=0 
+2023-02-17 17:06:12.089 restartedMain [] INFO  jdbc.resultsettable - 
+|---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------|
+|memberid |createdatetime |createuserkey |updatedatetime |updateuserkey |businesskey |name |password |username |
+|---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------|
+|---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------|
+
+ 
+    |---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------| |memberid |createdatetime |createuserkey |updatedatetime |updateuserkey |businesskey |name |password |username | |---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------| |---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------| 
+2023-02-17 17:08:14.109 restartedMain [] DEBUG jdbc.sqlonly -  com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+71. select * from `t1`.`member` where 1=0
+
+ 
+    com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52) 71. select
+        * 
+    from
+        `t1`.`member` 
+    where
+        1=0 
+2023-02-17 17:08:14.155 restartedMain [] INFO  jdbc.resultsettable - 
+|---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------|
+|memberid |createdatetime |createuserkey |updatedatetime |updateuserkey |businesskey |name |password |username |
+|---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------|
+|---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------|
+
+ 
+    |---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------| |memberid |createdatetime |createuserkey |updatedatetime |updateuserkey |businesskey |name |password |username | |---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------| |---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------| 
+2023-02-17 17:10:22.468 restartedMain [] DEBUG jdbc.sqlonly -  com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+81. select * from `t1`.`member` where 1=0
+
+ 
+    com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52) 81. select
+        * 
+    from
+        `t1`.`member` 
+    where
+        1=0 
+2023-02-17 17:10:22.500 restartedMain [] INFO  jdbc.resultsettable - 
+|---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------|
+|memberid |createdatetime |createuserkey |updatedatetime |updateuserkey |businesskey |name |password |username |
+|---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------|
+|---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------|
+
+ 
+    |---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------| |memberid |createdatetime |createuserkey |updatedatetime |updateuserkey |businesskey |name |password |username | |---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------| |---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------| 
+2023-02-17 17:12:31.687 restartedMain [] DEBUG jdbc.sqlonly -  com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+91. select * from `t1`.`member` where 1=0
+
+ 
+    com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52) 91. select
+        * 
+    from
+        `t1`.`member` 
+    where
+        1=0 
+2023-02-17 17:12:31.730 restartedMain [] INFO  jdbc.resultsettable - 
+|---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------|
+|memberid |createdatetime |createuserkey |updatedatetime |updateuserkey |businesskey |name |password |username |
+|---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------|
+|---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------|
+
+ 
+    |---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------| |memberid |createdatetime |createuserkey |updatedatetime |updateuserkey |businesskey |name |password |username | |---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------| |---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------| 
+2023-02-17 17:12:36.538 http-nio-35063-exec-2 [] DEBUG jdbc.sqlonly -  com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+91. select member0_.memberId as memberid1_2_, member0_.createDateTime as createda2_2_, member0_.createUserKey as createus3_2_, member0_.updateDateTime as updateda4_2_, member0_.updateUserKey as updateus5_2_, member0_.businessKey as business6_2_, member0_.name as name7_2_, member0_.password as password8_2_, member0_.username as username9_2_ from Member member0_ where member0_.username='llwodnjs@naver.com'
+
+ 
+    com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52) 91. select
+        member0_.memberId as memberid1_2_,
+        member0_.createDateTime as createda2_2_,
+        member0_.createUserKey as createus3_2_,
+        member0_.updateDateTime as updateda4_2_,
+        member0_.updateUserKey as updateus5_2_,
+        member0_.businessKey as business6_2_,
+        member0_.name as name7_2_,
+        member0_.password as password8_2_,
+        member0_.username as username9_2_ 
+    from
+        Member member0_ 
+    where
+        member0_.username='llwodnjs@naver.com' 
+2023-02-17 17:12:36.618 http-nio-35063-exec-2 [] INFO  jdbc.resultsettable - 
+|---------|------------------------|--------------|------------------------|--------------|--------------|-----|---------------------------------------------------------------------|-------------------|
+|memberid |createdatetime          |createuserkey |updatedatetime          |updateuserkey |businesskey   |name |password                                                             |username           |
+|---------|------------------------|--------------|------------------------|--------------|--------------|-----|---------------------------------------------------------------------|-------------------|
+|90       |2023-02-17 13:46:27.786 |null          |2023-02-17 13:46:27.786 |null          |MEM0060141811 |이재원  |{bcrypt}$2a$10$jXJc9vRzyigcSiw4GgMzR.IiRLIjL/DRTGLAGPucd0/kG8l4pxfA6 |llwodnjs@naver.com |
+|---------|------------------------|--------------|------------------------|--------------|--------------|-----|---------------------------------------------------------------------|-------------------|
+
+ 
+    |---------|------------------------|--------------|------------------------|--------------|--------------|-----|---------------------------------------------------------------------|-------------------| |memberid |createdatetime          |createuserkey |updatedatetime          |updateuserkey |businesskey   |name |password                                                             |username           | |---------|------------------------|--------------|------------------------|--------------|--------------|-----|---------------------------------------------------------------------|-------------------| |90       |2023-02-17 13:46:27.786 |null          |2023-02-17 13:46:27.786 |null          |MEM0060141811 |이재원  |{bcrypt}$2a$10$jXJc9vRzyigcSiw4GgMzR.IiRLIjL/DRTGLAGPucd0/kG8l4pxfA6 |llwodnjs@naver.com | |---------|------------------------|--------------|------------------------|--------------|--------------|-----|---------------------------------------------------------------------|-------------------| 
+2023-02-17 17:12:36.728 http-nio-35063-exec-2 [] DEBUG jdbc.sqlonly -  com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+91. select roles0_.member as member8_0_0_, roles0_.authorityId as authorit1_0_0_, roles0_.authorityId as authorit1_0_1_, roles0_.createDateTime as createda2_0_1_, roles0_.createUserKey as createus3_0_1_, roles0_.updateDateTime as updateda4_0_1_, roles0_.updateUserKey as updateus5_0_1_, roles0_.businessKey as business6_0_1_, roles0_.member as member8_0_1_, roles0_.name as name7_0_1_ from Authority roles0_ where roles0_.member=90
+
+ 
+    com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52) 91. select
+        roles0_.member as member8_0_0_,
+        roles0_.authorityId as authorit1_0_0_,
+        roles0_.authorityId as authorit1_0_1_,
+        roles0_.createDateTime as createda2_0_1_,
+        roles0_.createUserKey as createus3_0_1_,
+        roles0_.updateDateTime as updateda4_0_1_,
+        roles0_.updateUserKey as updateus5_0_1_,
+        roles0_.businessKey as business6_0_1_,
+        roles0_.member as member8_0_1_,
+        roles0_.name as name7_0_1_ 
+    from
+        Authority roles0_ 
+    where
+        roles0_.member=90 
+2023-02-17 17:12:36.780 http-nio-35063-exec-2 [] INFO  jdbc.resultsettable - 
+|-------|------------|------------|------------------------|--------------|------------------------|--------------|--------------|-------|-----|
+|member |authorityid |authorityid |createdatetime          |createuserkey |updatedatetime          |updateuserkey |businesskey   |member |name |
+|-------|------------|------------|------------------------|--------------|------------------------|--------------|--------------|-------|-----|
+|90     |91          |91          |2023-02-17 13:46:27.808 |null          |2023-02-17 13:46:27.808 |null          |AUT0285747923 |90     |USER |
+|-------|------------|------------|------------------------|--------------|------------------------|--------------|--------------|-------|-----|
+
+ 
+    |-------|------------|------------|------------------------|--------------|------------------------|--------------|--------------|-------|-----| |member |authorityid |authorityid |createdatetime          |createuserkey |updatedatetime          |updateuserkey |businesskey   |member |name | |-------|------------|------------|------------------------|--------------|------------------------|--------------|--------------|-------|-----| |90     |91          |91          |2023-02-17 13:46:27.808 |null          |2023-02-17 13:46:27.808 |null          |AUT0285747923 |90     |USER | |-------|------------|------------|------------------------|--------------|------------------------|--------------|--------------|-------|-----| 
+2023-02-17 17:13:03.504 restartedMain [] DEBUG jdbc.sqlonly -  com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+101. select * from `t1`.`member` where 1=0
+
+ 
+    com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52) 101. select
+        * 
+    from
+        `t1`.`member` 
+    where
+        1=0 
+2023-02-17 17:13:03.541 restartedMain [] INFO  jdbc.resultsettable - 
+|---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------|
+|memberid |createdatetime |createuserkey |updatedatetime |updateuserkey |businesskey |name |password |username |
+|---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------|
+|---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------|
+
+ 
+    |---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------| |memberid |createdatetime |createuserkey |updatedatetime |updateuserkey |businesskey |name |password |username | |---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------| |---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------| 
+2023-02-17 17:24:44.358 restartedMain [] DEBUG jdbc.sqlonly -  com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+111. select * from `t1`.`member` where 1=0
+
+ 
+    com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52) 111. select
+        * 
+    from
+        `t1`.`member` 
+    where
+        1=0 
+2023-02-17 17:24:44.404 restartedMain [] INFO  jdbc.resultsettable - 
+|---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------|
+|memberid |createdatetime |createuserkey |updatedatetime |updateuserkey |businesskey |name |password |username |
+|---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------|
+|---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------|
+
+ 
+    |---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------| |memberid |createdatetime |createuserkey |updatedatetime |updateuserkey |businesskey |name |password |username | |---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------| |---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------| 
+2023-02-17 17:56:09.306 restartedMain [] DEBUG jdbc.sqlonly -  com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+131. select * from `t1`.`member` where 1=0
+
+ 
+    com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52) 131. select
+        * 
+    from
+        `t1`.`member` 
+    where
+        1=0 
+2023-02-17 17:56:09.360 restartedMain [] INFO  jdbc.resultsettable - 
+|---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------|
+|memberid |createdatetime |createuserkey |updatedatetime |updateuserkey |businesskey |name |password |username |
+|---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------|
+|---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------|
+
+ 
+    |---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------| |memberid |createdatetime |createuserkey |updatedatetime |updateuserkey |businesskey |name |password |username | |---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------| |---------|---------------|--------------|---------------|--------------|------------|-----|---------|---------| 
+2023-02-17 17:56:28.287 http-nio-35063-exec-3 [] DEBUG jdbc.sqlonly -  com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+131. select member0_.memberId as memberid1_2_, member0_.createDateTime as createda2_2_, member0_.createUserKey as createus3_2_, member0_.updateDateTime as updateda4_2_, member0_.updateUserKey as updateus5_2_, member0_.businessKey as business6_2_, member0_.name as name7_2_, member0_.password as password8_2_, member0_.username as username9_2_ from Member member0_ where member0_.username='llwodnjs@naver.com'
+
+ 
+    com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52) 131. select
+        member0_.memberId as memberid1_2_,
+        member0_.createDateTime as createda2_2_,
+        member0_.createUserKey as createus3_2_,
+        member0_.updateDateTime as updateda4_2_,
+        member0_.updateUserKey as updateus5_2_,
+        member0_.businessKey as business6_2_,
+        member0_.name as name7_2_,
+        member0_.password as password8_2_,
+        member0_.username as username9_2_ 
+    from
+        Member member0_ 
+    where
+        member0_.username='llwodnjs@naver.com' 
+2023-02-17 17:56:28.357 http-nio-35063-exec-3 [] INFO  jdbc.resultsettable - 
+|---------|------------------------|--------------|------------------------|--------------|--------------|-----|---------------------------------------------------------------------|-------------------|
+|memberid |createdatetime          |createuserkey |updatedatetime          |updateuserkey |businesskey   |name |password                                                             |username           |
+|---------|------------------------|--------------|------------------------|--------------|--------------|-----|---------------------------------------------------------------------|-------------------|
+|90       |2023-02-17 13:46:27.786 |null          |2023-02-17 13:46:27.786 |null          |MEM0060141811 |이재원  |{bcrypt}$2a$10$jXJc9vRzyigcSiw4GgMzR.IiRLIjL/DRTGLAGPucd0/kG8l4pxfA6 |llwodnjs@naver.com |
+|---------|------------------------|--------------|------------------------|--------------|--------------|-----|---------------------------------------------------------------------|-------------------|
+
+ 
+    |---------|------------------------|--------------|------------------------|--------------|--------------|-----|---------------------------------------------------------------------|-------------------| |memberid |createdatetime          |createuserkey |updatedatetime          |updateuserkey |businesskey   |name |password                                                             |username           | |---------|------------------------|--------------|------------------------|--------------|--------------|-----|---------------------------------------------------------------------|-------------------| |90       |2023-02-17 13:46:27.786 |null          |2023-02-17 13:46:27.786 |null          |MEM0060141811 |이재원  |{bcrypt}$2a$10$jXJc9vRzyigcSiw4GgMzR.IiRLIjL/DRTGLAGPucd0/kG8l4pxfA6 |llwodnjs@naver.com | |---------|------------------------|--------------|------------------------|--------------|--------------|-----|---------------------------------------------------------------------|-------------------| 
+2023-02-17 17:56:28.466 http-nio-35063-exec-3 [] DEBUG jdbc.sqlonly -  com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+131. select roles0_.member as member8_0_0_, roles0_.authorityId as authorit1_0_0_, roles0_.authorityId as authorit1_0_1_, roles0_.createDateTime as createda2_0_1_, roles0_.createUserKey as createus3_0_1_, roles0_.updateDateTime as updateda4_0_1_, roles0_.updateUserKey as updateus5_0_1_, roles0_.businessKey as business6_0_1_, roles0_.member as member8_0_1_, roles0_.name as name7_0_1_ from Authority roles0_ where roles0_.member=90
+
+ 
+    com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52) 131. select
+        roles0_.member as member8_0_0_,
+        roles0_.authorityId as authorit1_0_0_,
+        roles0_.authorityId as authorit1_0_1_,
+        roles0_.createDateTime as createda2_0_1_,
+        roles0_.createUserKey as createus3_0_1_,
+        roles0_.updateDateTime as updateda4_0_1_,
+        roles0_.updateUserKey as updateus5_0_1_,
+        roles0_.businessKey as business6_0_1_,
+        roles0_.member as member8_0_1_,
+        roles0_.name as name7_0_1_ 
+    from
+        Authority roles0_ 
+    where
+        roles0_.member=90 
+2023-02-17 17:56:28.529 http-nio-35063-exec-3 [] INFO  jdbc.resultsettable - 
+|-------|------------|------------|------------------------|--------------|------------------------|--------------|--------------|-------|-----|
+|member |authorityid |authorityid |createdatetime          |createuserkey |updatedatetime          |updateuserkey |businesskey   |member |name |
+|-------|------------|------------|------------------------|--------------|------------------------|--------------|--------------|-------|-----|
+|90     |91          |91          |2023-02-17 13:46:27.808 |null          |2023-02-17 13:46:27.808 |null          |AUT0285747923 |90     |USER |
+|-------|------------|------------|------------------------|--------------|------------------------|--------------|--------------|-------|-----|
+
+ 
+    |-------|------------|------------|------------------------|--------------|------------------------|--------------|--------------|-------|-----| |member |authorityid |authorityid |createdatetime          |createuserkey |updatedatetime          |updateuserkey |businesskey   |member |name | |-------|------------|------------|------------------------|--------------|------------------------|--------------|--------------|-------|-----| |90     |91          |91          |2023-02-17 13:46:27.808 |null          |2023-02-17 13:46:27.808 |null          |AUT0285747923 |90     |USER | |-------|------------|------------|------------------------|--------------|------------------------|--------------|--------------|-------|-----| 
+2023-02-17 17:57:32.500 http-nio-35063-exec-6 [] DEBUG jdbc.sqlonly -  com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+131. select member0_.memberId as memberid1_2_, member0_.createDateTime as createda2_2_, member0_.createUserKey as createus3_2_, member0_.updateDateTime as updateda4_2_, member0_.updateUserKey as updateus5_2_, member0_.businessKey as business6_2_, member0_.name as name7_2_, member0_.password as password8_2_, member0_.username as username9_2_ from Member member0_ where member0_.username='llwodnjs@naver.com'
+
+ 
+    com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52) 131. select
+        member0_.memberId as memberid1_2_,
+        member0_.createDateTime as createda2_2_,
+        member0_.createUserKey as createus3_2_,
+        member0_.updateDateTime as updateda4_2_,
+        member0_.updateUserKey as updateus5_2_,
+        member0_.businessKey as business6_2_,
+        member0_.name as name7_2_,
+        member0_.password as password8_2_,
+        member0_.username as username9_2_ 
+    from
+        Member member0_ 
+    where
+        member0_.username='llwodnjs@naver.com' 
+2023-02-17 17:57:32.573 http-nio-35063-exec-6 [] INFO  jdbc.resultsettable - 
+|---------|------------------------|--------------|------------------------|--------------|--------------|-----|---------------------------------------------------------------------|-------------------|
+|memberid |createdatetime          |createuserkey |updatedatetime          |updateuserkey |businesskey   |name |password                                                             |username           |
+|---------|------------------------|--------------|------------------------|--------------|--------------|-----|---------------------------------------------------------------------|-------------------|
+|90       |2023-02-17 13:46:27.786 |null          |2023-02-17 13:46:27.786 |null          |MEM0060141811 |이재원  |{bcrypt}$2a$10$jXJc9vRzyigcSiw4GgMzR.IiRLIjL/DRTGLAGPucd0/kG8l4pxfA6 |llwodnjs@naver.com |
+|---------|------------------------|--------------|------------------------|--------------|--------------|-----|---------------------------------------------------------------------|-------------------|
+
+ 
+    |---------|------------------------|--------------|------------------------|--------------|--------------|-----|---------------------------------------------------------------------|-------------------| |memberid |createdatetime          |createuserkey |updatedatetime          |updateuserkey |businesskey   |name |password                                                             |username           | |---------|------------------------|--------------|------------------------|--------------|--------------|-----|---------------------------------------------------------------------|-------------------| |90       |2023-02-17 13:46:27.786 |null          |2023-02-17 13:46:27.786 |null          |MEM0060141811 |이재원  |{bcrypt}$2a$10$jXJc9vRzyigcSiw4GgMzR.IiRLIjL/DRTGLAGPucd0/kG8l4pxfA6 |llwodnjs@naver.com | |---------|------------------------|--------------|------------------------|--------------|--------------|-----|---------------------------------------------------------------------|-------------------| 
+2023-02-17 17:57:32.706 http-nio-35063-exec-6 [] DEBUG jdbc.sqlonly -  com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+131. select roles0_.member as member8_0_0_, roles0_.authorityId as authorit1_0_0_, roles0_.authorityId as authorit1_0_1_, roles0_.createDateTime as createda2_0_1_, roles0_.createUserKey as createus3_0_1_, roles0_.updateDateTime as updateda4_0_1_, roles0_.updateUserKey as updateus5_0_1_, roles0_.businessKey as business6_0_1_, roles0_.member as member8_0_1_, roles0_.name as name7_0_1_ from Authority roles0_ where roles0_.member=90
+
+ 
+    com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52) 131. select
+        roles0_.member as member8_0_0_,
+        roles0_.authorityId as authorit1_0_0_,
+        roles0_.authorityId as authorit1_0_1_,
+        roles0_.createDateTime as createda2_0_1_,
+        roles0_.createUserKey as createus3_0_1_,
+        roles0_.updateDateTime as updateda4_0_1_,
+        roles0_.updateUserKey as updateus5_0_1_,
+        roles0_.businessKey as business6_0_1_,
+        roles0_.member as member8_0_1_,
+        roles0_.name as name7_0_1_ 
+    from
+        Authority roles0_ 
+    where
+        roles0_.member=90 
+2023-02-17 17:57:32.736 http-nio-35063-exec-6 [] INFO  jdbc.resultsettable - 
+|-------|------------|------------|------------------------|--------------|------------------------|--------------|--------------|-------|-----|
+|member |authorityid |authorityid |createdatetime          |createuserkey |updatedatetime          |updateuserkey |businesskey   |member |name |
+|-------|------------|------------|------------------------|--------------|------------------------|--------------|--------------|-------|-----|
+|90     |91          |91          |2023-02-17 13:46:27.808 |null          |2023-02-17 13:46:27.808 |null          |AUT0285747923 |90     |USER |
+|-------|------------|------------|------------------------|--------------|------------------------|--------------|--------------|-------|-----|
+
+ 
+    |-------|------------|------------|------------------------|--------------|------------------------|--------------|--------------|-------|-----| |member |authorityid |authorityid |createdatetime          |createuserkey |updatedatetime          |updateuserkey |businesskey   |member |name | |-------|------------|------------|------------------------|--------------|------------------------|--------------|--------------|-------|-----| |90     |91          |91          |2023-02-17 13:46:27.808 |null          |2023-02-17 13:46:27.808 |null          |AUT0285747923 |90     |USER | |-------|------------|------------|------------------------|--------------|------------------------|--------------|--------------|-------|-----| 
